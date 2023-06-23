@@ -1,0 +1,15 @@
+[31m[1mCMake Error[0m at /home/banafshe/catkin_ws/src/my_test_package/CMakeLists.txt:143 (add_executable):
+  Cannot find source file:
+
+    src/my_first_subscriber.cpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm
+  .hpp .hxx .in .txx
+
+
+[31m[1mCMake Error[0m at /home/banafshe/catkin_ws/src/my_test_package/CMakeLists.txt:143 (add_executable):
+  No SOURCES given to target: my_subscriber_cpp
+
+
+CMake Generate step failed.  Build files cannot be regenerated correctly.
+make: *** [Makefile:618: cmake_check_build_system] Error 1

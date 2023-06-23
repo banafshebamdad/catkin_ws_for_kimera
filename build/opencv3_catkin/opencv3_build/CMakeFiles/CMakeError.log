@@ -1,0 +1,359 @@
+Build output check failed:
+    Regex: 'command line option .* is valid for .* but not for C\+\+'
+    Output line: 'cc1plus: warning: command line option ‘-Wmissing-prototypes’ is valid for C/ObjC but not for C++'
+Compilation failed:
+    source file: '/home/banafshe/catkin_ws/build/opencv3_catkin/opencv3_build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations  -Wmissing-prototypes'
+===== BUILD LOG =====
+Change Dir: /home/banafshe/catkin_ws/build/opencv3_catkin/opencv3_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_61590/fast && make[3]: Entering directory '/home/banafshe/catkin_ws/build/opencv3_catkin/opencv3_build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_61590.dir/build.make CMakeFiles/cmTC_61590.dir/build
+make[4]: Entering directory '/home/banafshe/catkin_ws/build/opencv3_catkin/opencv3_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_61590.dir/src.cxx.o
+/usr/bin/c++    -O3 -DNDEBUG -fPIE    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations  -Wmissing-prototypes -o CMakeFiles/cmTC_61590.dir/src.cxx.o -c /home/banafshe/catkin_ws/build/opencv3_catkin/opencv3_build/CMakeFiles/CMakeTmp/src.cxx
+cc1plus: warning: command line option ‘-Wmissing-prototypes’ is valid for C/ObjC but not for C++
+/home/banafshe/catkin_ws/build/opencv3_catkin/opencv3_build/CMakeFiles/CMakeTmp/src.cxx:1: warning: ignoring #pragma   [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+Linking CXX executable cmTC_61590
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_61590.dir/link.txt --verbose=1
+/usr/bin/c++    -O3 -DNDEBUG    -rdynamic CMakeFiles/cmTC_61590.dir/src.cxx.o  -o cmTC_61590 
+make[4]: Leaving directory '/home/banafshe/catkin_ws/build/opencv3_catkin/opencv3_build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/banafshe/catkin_ws/build/opencv3_catkin/opencv3_build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command line option .* is valid for .* but not for C\+\+'
+    Output line: 'cc1plus: warning: command line option ‘-Wstrict-prototypes’ is valid for C/ObjC but not for C++'
+Compilation failed:
+    source file: '/home/banafshe/catkin_ws/build/opencv3_catkin/opencv3_build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations  -Wstrict-prototypes'
+===== BUILD LOG =====
+Change Dir: /home/banafshe/catkin_ws/build/opencv3_catkin/opencv3_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_53415/fast && make[3]: Entering directory '/home/banafshe/catkin_ws/build/opencv3_catkin/opencv3_build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_53415.dir/build.make CMakeFiles/cmTC_53415.dir/build
+make[4]: Entering directory '/home/banafshe/catkin_ws/build/opencv3_catkin/opencv3_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_53415.dir/src.cxx.o
+/usr/bin/c++    -O3 -DNDEBUG -fPIE    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations  -Wstrict-prototypes -o CMakeFiles/cmTC_53415.dir/src.cxx.o -c /home/banafshe/catkin_ws/build/opencv3_catkin/opencv3_build/CMakeFiles/CMakeTmp/src.cxx
+cc1plus: warning: command line option ‘-Wstrict-prototypes’ is valid for C/ObjC but not for C++
+/home/banafshe/catkin_ws/build/opencv3_catkin/opencv3_build/CMakeFiles/CMakeTmp/src.cxx:1: warning: ignoring #pragma   [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+Linking CXX executable cmTC_53415
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_53415.dir/link.txt --verbose=1
+/usr/bin/c++    -O3 -DNDEBUG    -rdynamic CMakeFiles/cmTC_53415.dir/src.cxx.o  -o cmTC_53415 
+make[4]: Leaving directory '/home/banafshe/catkin_ws/build/opencv3_catkin/opencv3_build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/banafshe/catkin_ws/build/opencv3_catkin/opencv3_build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command line option .* is valid for .* but not for C'
+    Output line: 'cc1: warning: command line option ‘-Wsign-promo’ is valid for C++/ObjC++ but not for C'
+Compilation failed:
+    source file: '/home/banafshe/catkin_ws/build/opencv3_catkin/opencv3_build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow  -Wsign-promo'
+===== BUILD LOG =====
+Change Dir: /home/banafshe/catkin_ws/build/opencv3_catkin/opencv3_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_397d6/fast && make[3]: Entering directory '/home/banafshe/catkin_ws/build/opencv3_catkin/opencv3_build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_397d6.dir/build.make CMakeFiles/cmTC_397d6.dir/build
+make[4]: Entering directory '/home/banafshe/catkin_ws/build/opencv3_catkin/opencv3_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_397d6.dir/src.c.o
+/usr/bin/cc   -O3 -DNDEBUG -fPIE    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow  -Wsign-promo -o CMakeFiles/cmTC_397d6.dir/src.c.o   -c /home/banafshe/catkin_ws/build/opencv3_catkin/opencv3_build/CMakeFiles/CMakeTmp/src.c
+cc1: warning: ‘-Werror=’ argument ‘-Werror=non-virtual-dtor’ is not valid for C
+cc1: warning: command line option ‘-Wsign-promo’ is valid for C++/ObjC++ but not for C
+/home/banafshe/catkin_ws/build/opencv3_catkin/opencv3_build/CMakeFiles/CMakeTmp/src.c:1: warning: ignoring #pragma   [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+Linking C executable cmTC_397d6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_397d6.dir/link.txt --verbose=1
+/usr/bin/cc   -O3 -DNDEBUG    -rdynamic CMakeFiles/cmTC_397d6.dir/src.c.o  -o cmTC_397d6 
+make[4]: Leaving directory '/home/banafshe/catkin_ws/build/opencv3_catkin/opencv3_build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/banafshe/catkin_ws/build/opencv3_catkin/opencv3_build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command line option .* is valid for .* but not for C'
+    Output line: 'cc1: warning: command line option ‘-Wsuggest-override’ is valid for C++/ObjC++ but not for C'
+Compilation failed:
+    source file: '/home/banafshe/catkin_ws/build/opencv3_catkin/opencv3_build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self  -Wsuggest-override'
+===== BUILD LOG =====
+Change Dir: /home/banafshe/catkin_ws/build/opencv3_catkin/opencv3_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_06390/fast && make[3]: Entering directory '/home/banafshe/catkin_ws/build/opencv3_catkin/opencv3_build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_06390.dir/build.make CMakeFiles/cmTC_06390.dir/build
+make[4]: Entering directory '/home/banafshe/catkin_ws/build/opencv3_catkin/opencv3_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_06390.dir/src.c.o
+/usr/bin/cc   -O3 -DNDEBUG -fPIE    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self  -Wsuggest-override -o CMakeFiles/cmTC_06390.dir/src.c.o   -c /home/banafshe/catkin_ws/build/opencv3_catkin/opencv3_build/CMakeFiles/CMakeTmp/src.c
+cc1: warning: ‘-Werror=’ argument ‘-Werror=non-virtual-dtor’ is not valid for C
+cc1: warning: command line option ‘-Wsuggest-override’ is valid for C++/ObjC++ but not for C
+/home/banafshe/catkin_ws/build/opencv3_catkin/opencv3_build/CMakeFiles/CMakeTmp/src.c:1: warning: ignoring #pragma   [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+Linking C executable cmTC_06390
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_06390.dir/link.txt --verbose=1
+/usr/bin/cc   -O3 -DNDEBUG    -rdynamic CMakeFiles/cmTC_06390.dir/src.c.o  -o cmTC_06390 
+make[4]: Leaving directory '/home/banafshe/catkin_ws/build/opencv3_catkin/opencv3_build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/banafshe/catkin_ws/build/opencv3_catkin/opencv3_build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command line option .* is valid for .* but not for C'
+    Output line: 'cc1: warning: command line option ‘-Wno-delete-non-virtual-dtor’ is valid for C++/ObjC++ but not for C'
+Compilation failed:
+    source file: '/home/banafshe/catkin_ws/build/opencv3_catkin/opencv3_build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing  -Wno-delete-non-virtual-dtor'
+===== BUILD LOG =====
+Change Dir: /home/banafshe/catkin_ws/build/opencv3_catkin/opencv3_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_6f807/fast && make[3]: Entering directory '/home/banafshe/catkin_ws/build/opencv3_catkin/opencv3_build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_6f807.dir/build.make CMakeFiles/cmTC_6f807.dir/build
+make[4]: Entering directory '/home/banafshe/catkin_ws/build/opencv3_catkin/opencv3_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6f807.dir/src.c.o
+/usr/bin/cc   -O3 -DNDEBUG -fPIE    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing  -Wno-delete-non-virtual-dtor -o CMakeFiles/cmTC_6f807.dir/src.c.o   -c /home/banafshe/catkin_ws/build/opencv3_catkin/opencv3_build/CMakeFiles/CMakeTmp/src.c
+cc1: warning: ‘-Werror=’ argument ‘-Werror=non-virtual-dtor’ is not valid for C
+cc1: warning: command line option ‘-Wno-delete-non-virtual-dtor’ is valid for C++/ObjC++ but not for C
+/home/banafshe/catkin_ws/build/opencv3_catkin/opencv3_build/CMakeFiles/CMakeTmp/src.c:1: warning: ignoring #pragma   [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+Linking C executable cmTC_6f807
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6f807.dir/link.txt --verbose=1
+/usr/bin/cc   -O3 -DNDEBUG    -rdynamic CMakeFiles/cmTC_6f807.dir/src.c.o  -o cmTC_6f807 
+make[4]: Leaving directory '/home/banafshe/catkin_ws/build/opencv3_catkin/opencv3_build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/banafshe/catkin_ws/build/opencv3_catkin/opencv3_build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: warning: unrecognized command line option ‘-Wno-unnamed-type-template-args’'
+Compilation failed:
+    source file: '/home/banafshe/catkin_ws/build/opencv3_catkin/opencv3_build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wsuggest-override -Wno-narrowing -Wno-delete-non-virtual-dtor  -Wno-unnamed-type-template-args'
+===== BUILD LOG =====
+Change Dir: /home/banafshe/catkin_ws/build/opencv3_catkin/opencv3_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_2f14d/fast && make[3]: Entering directory '/home/banafshe/catkin_ws/build/opencv3_catkin/opencv3_build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_2f14d.dir/build.make CMakeFiles/cmTC_2f14d.dir/build
+make[4]: Entering directory '/home/banafshe/catkin_ws/build/opencv3_catkin/opencv3_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_2f14d.dir/src.cxx.o
+/usr/bin/c++    -O3 -DNDEBUG -fPIE    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wsuggest-override -Wno-narrowing -Wno-delete-non-virtual-dtor  -Wno-unnamed-type-template-args -o CMakeFiles/cmTC_2f14d.dir/src.cxx.o -c /home/banafshe/catkin_ws/build/opencv3_catkin/opencv3_build/CMakeFiles/CMakeTmp/src.cxx
+/home/banafshe/catkin_ws/build/opencv3_catkin/opencv3_build/CMakeFiles/CMakeTmp/src.cxx:1: warning: ignoring #pragma   [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+cc1plus: warning: unrecognized command line option ‘-Wno-unnamed-type-template-args’
+Linking CXX executable cmTC_2f14d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2f14d.dir/link.txt --verbose=1
+/usr/bin/c++    -O3 -DNDEBUG    -rdynamic CMakeFiles/cmTC_2f14d.dir/src.cxx.o  -o cmTC_2f14d 
+make[4]: Leaving directory '/home/banafshe/catkin_ws/build/opencv3_catkin/opencv3_build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/banafshe/catkin_ws/build/opencv3_catkin/opencv3_build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1: warning: unrecognized command line option ‘-Wno-unnamed-type-template-args’'
+Compilation failed:
+    source file: '/home/banafshe/catkin_ws/build/opencv3_catkin/opencv3_build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing  -Wno-unnamed-type-template-args'
+===== BUILD LOG =====
+Change Dir: /home/banafshe/catkin_ws/build/opencv3_catkin/opencv3_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_f2fe5/fast && make[3]: Entering directory '/home/banafshe/catkin_ws/build/opencv3_catkin/opencv3_build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_f2fe5.dir/build.make CMakeFiles/cmTC_f2fe5.dir/build
+make[4]: Entering directory '/home/banafshe/catkin_ws/build/opencv3_catkin/opencv3_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f2fe5.dir/src.c.o
+/usr/bin/cc   -O3 -DNDEBUG -fPIE    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing  -Wno-unnamed-type-template-args -o CMakeFiles/cmTC_f2fe5.dir/src.c.o   -c /home/banafshe/catkin_ws/build/opencv3_catkin/opencv3_build/CMakeFiles/CMakeTmp/src.c
+cc1: warning: ‘-Werror=’ argument ‘-Werror=non-virtual-dtor’ is not valid for C
+/home/banafshe/catkin_ws/build/opencv3_catkin/opencv3_build/CMakeFiles/CMakeTmp/src.c:1: warning: ignoring #pragma   [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+cc1: warning: unrecognized command line option ‘-Wno-unnamed-type-template-args’
+Linking C executable cmTC_f2fe5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f2fe5.dir/link.txt --verbose=1
+/usr/bin/cc   -O3 -DNDEBUG    -rdynamic CMakeFiles/cmTC_f2fe5.dir/src.c.o  -o cmTC_f2fe5 
+make[4]: Leaving directory '/home/banafshe/catkin_ws/build/opencv3_catkin/opencv3_build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/banafshe/catkin_ws/build/opencv3_catkin/opencv3_build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'command line option .* is valid for .* but not for C'
+    Output line: 'cc1: warning: command line option ‘-fvisibility-inlines-hidden’ is valid for C++/ObjC++ but not for C'
+Compilation failed:
+    source file: '/home/banafshe/catkin_ws/build/opencv3_catkin/opencv3_build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wimplicit-fallthrough=3 -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -fvisibility-inlines-hidden'
+===== BUILD LOG =====
+Change Dir: /home/banafshe/catkin_ws/build/opencv3_catkin/opencv3_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_38314/fast && make[3]: Entering directory '/home/banafshe/catkin_ws/build/opencv3_catkin/opencv3_build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_38314.dir/build.make CMakeFiles/cmTC_38314.dir/build
+make[4]: Entering directory '/home/banafshe/catkin_ws/build/opencv3_catkin/opencv3_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_38314.dir/src.c.o
+/usr/bin/cc   -O3 -DNDEBUG -fPIE    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wimplicit-fallthrough=3 -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -fvisibility-inlines-hidden -o CMakeFiles/cmTC_38314.dir/src.c.o   -c /home/banafshe/catkin_ws/build/opencv3_catkin/opencv3_build/CMakeFiles/CMakeTmp/src.c
+cc1: warning: ‘-Werror=’ argument ‘-Werror=non-virtual-dtor’ is not valid for C
+cc1: warning: command line option ‘-fvisibility-inlines-hidden’ is valid for C++/ObjC++ but not for C
+/home/banafshe/catkin_ws/build/opencv3_catkin/opencv3_build/CMakeFiles/CMakeTmp/src.c:1: warning: ignoring #pragma   [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+Linking C executable cmTC_38314
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_38314.dir/link.txt --verbose=1
+/usr/bin/cc   -O3 -DNDEBUG    -rdynamic CMakeFiles/cmTC_38314.dir/src.c.o  -o cmTC_38314 
+make[4]: Leaving directory '/home/banafshe/catkin_ws/build/opencv3_catkin/opencv3_build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/banafshe/catkin_ws/build/opencv3_catkin/opencv3_build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Determining if the include file linux/videodev.h exists failed with the following output:
+Change Dir: /home/banafshe/catkin_ws/build/opencv3_catkin/opencv3_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_e69e8/fast && make[3]: Entering directory '/home/banafshe/catkin_ws/build/opencv3_catkin/opencv3_build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_e69e8.dir/build.make CMakeFiles/cmTC_e69e8.dir/build
+make[4]: Entering directory '/home/banafshe/catkin_ws/build/opencv3_catkin/opencv3_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e69e8.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wimplicit-fallthrough=3 -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTC_e69e8.dir/CheckIncludeFile.c.o   -c /home/banafshe/catkin_ws/build/opencv3_catkin/opencv3_build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+cc1: warning: ‘-Werror=’ argument ‘-Werror=non-virtual-dtor’ is not valid for C
+/home/banafshe/catkin_ws/build/opencv3_catkin/opencv3_build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: linux/videodev.h: No such file or directory
+    1 | #include <linux/videodev.h>
+      |          ^~~~~~~~~~~~~~~~~~
+compilation terminated.
+make[4]: *** [CMakeFiles/cmTC_e69e8.dir/build.make:66: CMakeFiles/cmTC_e69e8.dir/CheckIncludeFile.c.o] Error 1
+make[4]: Leaving directory '/home/banafshe/catkin_ws/build/opencv3_catkin/opencv3_build/CMakeFiles/CMakeTmp'
+make[3]: *** [Makefile:121: cmTC_e69e8/fast] Error 2
+make[3]: Leaving directory '/home/banafshe/catkin_ws/build/opencv3_catkin/opencv3_build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file sys/videoio.h exists failed with the following output:
+Change Dir: /home/banafshe/catkin_ws/build/opencv3_catkin/opencv3_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_dfb19/fast && make[3]: Entering directory '/home/banafshe/catkin_ws/build/opencv3_catkin/opencv3_build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_dfb19.dir/build.make CMakeFiles/cmTC_dfb19.dir/build
+make[4]: Entering directory '/home/banafshe/catkin_ws/build/opencv3_catkin/opencv3_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_dfb19.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wimplicit-fallthrough=3 -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden  -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTC_dfb19.dir/CheckIncludeFile.c.o   -c /home/banafshe/catkin_ws/build/opencv3_catkin/opencv3_build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+cc1: warning: ‘-Werror=’ argument ‘-Werror=non-virtual-dtor’ is not valid for C
+/home/banafshe/catkin_ws/build/opencv3_catkin/opencv3_build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: sys/videoio.h: No such file or directory
+    1 | #include <sys/videoio.h>
+      |          ^~~~~~~~~~~~~~~
+compilation terminated.
+make[4]: *** [CMakeFiles/cmTC_dfb19.dir/build.make:66: CMakeFiles/cmTC_dfb19.dir/CheckIncludeFile.c.o] Error 1
+make[4]: Leaving directory '/home/banafshe/catkin_ws/build/opencv3_catkin/opencv3_build/CMakeFiles/CMakeTmp'
+make[3]: *** [Makefile:121: cmTC_dfb19/fast] Error 2
+make[3]: Leaving directory '/home/banafshe/catkin_ws/build/opencv3_catkin/opencv3_build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function sgemm_ exists failed with the following output:
+Change Dir: /home/banafshe/catkin_ws/build/opencv3_catkin/opencv3_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_f3d7d/fast && make[3]: Entering directory '/home/banafshe/catkin_ws/build/opencv3_catkin/opencv3_build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_f3d7d.dir/build.make CMakeFiles/cmTC_f3d7d.dir/build
+make[4]: Entering directory '/home/banafshe/catkin_ws/build/opencv3_catkin/opencv3_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f3d7d.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wimplicit-fallthrough=3 -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=sgemm_ -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTC_f3d7d.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+cc1: warning: ‘-Werror=’ argument ‘-Werror=non-virtual-dtor’ is not valid for C
+Linking C executable cmTC_f3d7d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f3d7d.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wimplicit-fallthrough=3 -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=sgemm_ -O3 -DNDEBUG    -Wl,--gc-sections  -rdynamic CMakeFiles/cmTC_f3d7d.dir/CheckFunctionExists.c.o  -o cmTC_f3d7d 
+/usr/bin/ld: CMakeFiles/cmTC_f3d7d.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text.startup.main+0x10): undefined reference to `sgemm_'
+collect2: error: ld returned 1 exit status
+make[4]: *** [CMakeFiles/cmTC_f3d7d.dir/build.make:87: cmTC_f3d7d] Error 1
+make[4]: Leaving directory '/home/banafshe/catkin_ws/build/opencv3_catkin/opencv3_build/CMakeFiles/CMakeTmp'
+make[3]: *** [Makefile:121: cmTC_f3d7d/fast] Error 2
+make[3]: Leaving directory '/home/banafshe/catkin_ws/build/opencv3_catkin/opencv3_build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function cheev_ exists failed with the following output:
+Change Dir: /home/banafshe/catkin_ws/build/opencv3_catkin/opencv3_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_71477/fast && make[3]: Entering directory '/home/banafshe/catkin_ws/build/opencv3_catkin/opencv3_build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_71477.dir/build.make CMakeFiles/cmTC_71477.dir/build
+make[4]: Entering directory '/home/banafshe/catkin_ws/build/opencv3_catkin/opencv3_build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_71477.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wimplicit-fallthrough=3 -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=cheev_ -O3 -DNDEBUG -fPIE   -o CMakeFiles/cmTC_71477.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+cc1: warning: ‘-Werror=’ argument ‘-Werror=non-virtual-dtor’ is not valid for C
+Linking C executable cmTC_71477
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_71477.dir/link.txt --verbose=1
+/usr/bin/cc    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wuninitialized -Winit-self -Wno-narrowing -Wno-comment -Wimplicit-fallthrough=3 -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -DCHECK_FUNCTION_EXISTS=cheev_ -O3 -DNDEBUG    -Wl,--gc-sections  -rdynamic CMakeFiles/cmTC_71477.dir/CheckFunctionExists.c.o  -o cmTC_71477  /usr/lib/x86_64-linux-gnu/libf77blas.so /usr/lib/x86_64-linux-gnu/libatlas.so 
+/usr/bin/ld: CMakeFiles/cmTC_71477.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text.startup.main+0x10): undefined reference to `cheev_'
+collect2: error: ld returned 1 exit status
+make[4]: *** [CMakeFiles/cmTC_71477.dir/build.make:89: cmTC_71477] Error 1
+make[4]: Leaving directory '/home/banafshe/catkin_ws/build/opencv3_catkin/opencv3_build/CMakeFiles/CMakeTmp'
+make[3]: *** [Makefile:121: cmTC_71477/fast] Error 2
+make[3]: Leaving directory '/home/banafshe/catkin_ws/build/opencv3_catkin/opencv3_build/CMakeFiles/CMakeTmp'
+
+
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: warning: unrecognized command line option ‘-Wno-inconsistent-missing-override’'
+Compilation failed:
+    source file: '/home/banafshe/catkin_ws/build/opencv3_catkin/opencv3_build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-inconsistent-missing-override'
+===== BUILD LOG =====
+Change Dir: /home/banafshe/catkin_ws/build/opencv3_catkin/opencv3_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_147fc/fast && make[3]: Entering directory '/home/banafshe/catkin_ws/build/opencv3_catkin/opencv3_build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_147fc.dir/build.make CMakeFiles/cmTC_147fc.dir/build
+make[4]: Entering directory '/home/banafshe/catkin_ws/build/opencv3_catkin/opencv3_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_147fc.dir/src.cxx.o
+/usr/bin/c++    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wsuggest-override -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden   -O3 -DNDEBUG -fPIE    -Wno-inconsistent-missing-override -o CMakeFiles/cmTC_147fc.dir/src.cxx.o -c /home/banafshe/catkin_ws/build/opencv3_catkin/opencv3_build/CMakeFiles/CMakeTmp/src.cxx
+/home/banafshe/catkin_ws/build/opencv3_catkin/opencv3_build/CMakeFiles/CMakeTmp/src.cxx:1: warning: ignoring #pragma   [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+cc1plus: warning: unrecognized command line option ‘-Wno-inconsistent-missing-override’
+Linking CXX executable cmTC_147fc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_147fc.dir/link.txt --verbose=1
+/usr/bin/c++     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wsuggest-override -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden   -O3 -DNDEBUG    -Wl,--gc-sections   -rdynamic CMakeFiles/cmTC_147fc.dir/src.cxx.o  -o cmTC_147fc 
+make[4]: Leaving directory '/home/banafshe/catkin_ws/build/opencv3_catkin/opencv3_build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/banafshe/catkin_ws/build/opencv3_catkin/opencv3_build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unrecognized .*option'
+    Output line: 'cc1plus: warning: unrecognized command line option ‘-Wno-unused-private-field’'
+Compilation failed:
+    source file: '/home/banafshe/catkin_ws/build/opencv3_catkin/opencv3_build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-unused-private-field'
+===== BUILD LOG =====
+Change Dir: /home/banafshe/catkin_ws/build/opencv3_catkin/opencv3_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d9a42/fast && make[3]: Entering directory '/home/banafshe/catkin_ws/build/opencv3_catkin/opencv3_build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_d9a42.dir/build.make CMakeFiles/cmTC_d9a42.dir/build
+make[4]: Entering directory '/home/banafshe/catkin_ws/build/opencv3_catkin/opencv3_build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d9a42.dir/src.cxx.o
+/usr/bin/c++    -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wsuggest-override -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-unused-function -Wno-deprecated-declarations -Wno-overloaded-virtual  -O3 -DNDEBUG -fPIE    -Wno-unused-private-field -o CMakeFiles/cmTC_d9a42.dir/src.cxx.o -c /home/banafshe/catkin_ws/build/opencv3_catkin/opencv3_build/CMakeFiles/CMakeTmp/src.cxx
+/home/banafshe/catkin_ws/build/opencv3_catkin/opencv3_build/CMakeFiles/CMakeTmp/src.cxx:1: warning: ignoring #pragma   [-Wunknown-pragmas]
+    1 | #pragma
+      | 
+cc1plus: warning: unrecognized command line option ‘-Wno-unused-private-field’
+Linking CXX executable cmTC_d9a42
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d9a42.dir/link.txt --verbose=1
+/usr/bin/c++     -fsigned-char -W -Wall -Werror=return-type -Werror=non-virtual-dtor -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winit-self -Wsuggest-override -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -fdiagnostics-show-option -Wno-long-long -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse -msse2 -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-unused-function -Wno-deprecated-declarations -Wno-overloaded-virtual  -O3 -DNDEBUG    -Wl,--gc-sections  -rdynamic CMakeFiles/cmTC_d9a42.dir/src.cxx.o  -o cmTC_d9a42 
+make[4]: Leaving directory '/home/banafshe/catkin_ws/build/opencv3_catkin/opencv3_build/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/banafshe/catkin_ws/build/opencv3_catkin/opencv3_build/CMakeFiles/CMakeTmp'
+
+
+===== END =====
+

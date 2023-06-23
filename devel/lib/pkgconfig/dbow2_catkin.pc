@@ -1,0 +1,8 @@
+prefix=/home/banafshe/catkin_ws/devel
+
+Name: dbow2_catkin
+Description: Description of dbow2_catkin
+Version: 0.0.1
+Cflags: -I/home/banafshe/catkin_ws/devel/include
+Libs: -L${prefix}/lib -lDBoW2
+Requires: opencv3_catkin

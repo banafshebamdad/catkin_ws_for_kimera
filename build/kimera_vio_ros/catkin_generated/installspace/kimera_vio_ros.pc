@@ -1,0 +1,8 @@
+prefix=/home/banafshe/catkin_ws/install
+
+Name: kimera_vio_ros
+Description: Description of kimera_vio_ros
+Version: 5.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lkimera_vio_ros
+Requires: opencv3_catkin roscpp std_msgs sensor_msgs nav_msgs message_filters image_transport rosbag cv_bridge tf pose_graph_tools mesh_rviz_plugins glog_catkin gflags_catkin pcl_ros pcl_msgs pcl_conversions

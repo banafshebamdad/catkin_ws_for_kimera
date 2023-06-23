@@ -1,0 +1,130 @@
+Not searching for unused variables given on the command line.
+[36m--[0m The CXX compiler identification is GNU 9.4.0
+[36m--[0m The C compiler identification is GNU 9.4.0
+[36m--[0m Check for working CXX compiler: /usr/bin/c++
+[36m--[0m Check for working CXX compiler: /usr/bin/c++ -- works
+[36m--[0m Detecting CXX compiler ABI info
+[36m--[0m Detecting CXX compiler ABI info - done
+[36m--[0m Detecting CXX compile features
+[36m--[0m Detecting CXX compile features - done
+[36m--[0m Check for working C compiler: /usr/bin/cc
+[36m--[0m Check for working C compiler: /usr/bin/cc -- works
+[36m--[0m Detecting C compiler ABI info
+[36m--[0m Detecting C compiler ABI info - done
+[36m--[0m Detecting C compile features
+[36m--[0m Detecting C compile features - done
+[36m--[0m ==============================================================
+[36m--[0m ====================  Dependencies ===========================
+[36m--[0m Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: filesystem serialization regex timer date_time thread
+[36m--[0m Found installed version of gflags: /home/banafshe/catkin_ws/devel/lib/cmake/gflags
+[36m--[0m Detected gflags version: 2.2.1
+[36m--[0m Found Gflags: /home/banafshe/catkin_ws/devel/include
+[36m--[0m Failed to find installed glog CMake configuration, searching for glog build directories exported with CMake.
+[36m--[0m Failed to find an installed/exported CMake configuration for glog, will perform search for installed glog components.
+[36m--[0m Found Glog: /usr/include (Required is at least version "0.3.5")
+[36m--[0m Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found suitable version "1.71.0", minimum required is "1.65") found components: serialization system filesystem thread program_options date_time timer chrono regex
+[36m--[0m GTSAM include directory:  /home/banafshe/catkin_ws/devel/lib/cmake/GTSAM/../../../include
+[36m--[0m Found OpenCV: /home/banafshe/catkin_ws/devel (found version "3.4.2")
+[36m--[0m Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0")
+[36m--[0m Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found suitable version "1.71.0", minimum required is "1.65") found components: serialization system filesystem thread program_options date_time timer chrono regex
+[36m--[0m GTSAM include directory:  /home/banafshe/catkin_ws/devel/lib/cmake/GTSAM/../../../include
+[36m--[0m GTSAM include directory:  /home/banafshe/catkin_ws/devel/lib/cmake/GTSAM/../../../include
+[36m--[0m Downloading vocabulary file from dropbox.
+[36m--[0m [download 100% complete]
+[36m--[0m [download 0% complete]
+[36m--[0m [download 1% complete]
+[36m--[0m [download 3% complete]
+[36m--[0m [download 4% complete]
+[36m--[0m [download 5% complete]
+[36m--[0m [download 7% complete]
+[36m--[0m [download 9% complete]
+[36m--[0m [download 10% complete]
+[36m--[0m [download 12% complete]
+[36m--[0m [download 14% complete]
+[36m--[0m [download 15% complete]
+[36m--[0m [download 16% complete]
+[36m--[0m [download 18% complete]
+[36m--[0m [download 19% complete]
+[36m--[0m [download 20% complete]
+[36m--[0m [download 22% complete]
+[36m--[0m [download 24% complete]
+[36m--[0m [download 25% complete]
+[36m--[0m [download 26% complete]
+[36m--[0m [download 28% complete]
+[36m--[0m [download 29% complete]
+[36m--[0m [download 30% complete]
+[36m--[0m [download 31% complete]
+[36m--[0m [download 32% complete]
+[36m--[0m [download 34% complete]
+[36m--[0m [download 35% complete]
+[36m--[0m [download 36% complete]
+[36m--[0m [download 37% complete]
+[36m--[0m [download 39% complete]
+[36m--[0m [download 41% complete]
+[36m--[0m [download 44% complete]
+[36m--[0m [download 46% complete]
+[36m--[0m [download 48% complete]
+[36m--[0m [download 50% complete]
+[36m--[0m [download 52% complete]
+[36m--[0m [download 53% complete]
+[36m--[0m [download 56% complete]
+[36m--[0m [download 57% complete]
+[36m--[0m [download 58% complete]
+[36m--[0m [download 60% complete]
+[36m--[0m [download 63% complete]
+[36m--[0m [download 64% complete]
+[36m--[0m [download 67% complete]
+[36m--[0m [download 68% complete]
+[36m--[0m [download 69% complete]
+[36m--[0m [download 71% complete]
+[36m--[0m [download 72% complete]
+[36m--[0m [download 73% complete]
+[36m--[0m [download 76% complete]
+[36m--[0m [download 77% complete]
+[36m--[0m [download 78% complete]
+[36m--[0m [download 81% complete]
+[36m--[0m [download 82% complete]
+[36m--[0m [download 85% complete]
+[36m--[0m [download 87% complete]
+[36m--[0m [download 88% complete]
+[36m--[0m [download 91% complete]
+[36m--[0m [download 92% complete]
+[36m--[0m [download 93% complete]
+[36m--[0m [download 96% complete]
+[36m--[0m [download 98% complete]
+[36m--[0m [download 100% complete]
+[36m--[0m Unzipping vocabulary file.
+[36m--[0m Moving vocabulary file.
+[36m--[0m Pangolin not found.
+Cloning into 'googletest-src'...
+Note: switching to 'v1.10.x'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at 703bd9ca Googletest export
+[36m--[0m Found PythonInterp: /usr/bin/python3.8 (found version "3.8.10")
+[36m--[0m Found Threads: TRUE
+[36m--[0m ===============================================================
+[36m--[0m ================  Configuration Options  ======================
+[36m--[0m CMAKE_CXX_COMPILER_ID type                : GNU
+[36m--[0m CMAKE_CXX_COMPILER_VERSION                : 9.4.0
+[36m--[0m Build flags
+[36m--[0m   Build type                              : Release
+[36m--[0m   C compilation flags (Release)           :  -O3 -DNDEBUG
+[36m--[0m   C++ compilation flags (Release)         :  -O3 -DNDEBUG
+[36m--[0m Configuring done
+[36m--[0m Generating done
+[36m--[0m Build files have been written to: /home/banafshe/catkin_ws/build/kimera_vio

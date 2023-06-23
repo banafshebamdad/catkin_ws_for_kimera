@@ -1,0 +1,8 @@
+prefix=/home/banafshe/catkin_ws/devel
+
+Name: opengv_catkin
+Description: Description of opengv_catkin
+Version: 0.0.1
+Cflags: -I/home/banafshe/catkin_ws/devel/include
+Libs: -L${prefix}/lib -lopengv
+Requires: 

@@ -1,0 +1,77 @@
+In file included from [01m[K/home/banafshe/catkin_ws/src/Kimera-RPGO/src/RobustSolver.cpp:22[m[K:
+/home/banafshe/catkin_ws/src/Kimera-RPGO/include/KimeraRPGO/outlier/Pcm.h: In instantiation of ‘[01m[Kgtsam::Values KimeraRPGO::Pcm<poseT, T>::multirobotValueInitialization(const gtsam::Values&) [with poseT = gtsam::Pose3; T = KimeraRPGO::PoseWithNode][m[K’:
+[01m[K/home/banafshe/catkin_ws/src/Kimera-RPGO/include/KimeraRPGO/outlier/Pcm.h:260:24:[m[K   required from ‘[01m[Kbool KimeraRPGO::Pcm<poseT, T>::removeOutliers(const gtsam::NonlinearFactorGraph&, const gtsam::Values&, gtsam::NonlinearFactorGraph*, gtsam::Values*) [with poseT = gtsam::Pose3; T = KimeraRPGO::PoseWithNode][m[K’
+[01m[K/home/banafshe/catkin_ws/src/Kimera-RPGO/include/KimeraRPGO/outlier/Pcm.h:145:8:[m[K   required from here
+[01m[K/home/banafshe/catkin_ws/src/Kimera-RPGO/include/KimeraRPGO/outlier/Pcm.h:1052:9:[m[K [01;35m[Kwarning: [m[Kcatching polymorphic type ‘[01m[Kclass std::out_of_range[m[K’ by value [[01;35m[K-Wcatch-value=[m[K]
+ 1052 |       } [01;35m[Kcatch[m[K (std::out_of_range e) {
+      |         [01;35m[K^~~~~[m[K
+/home/banafshe/catkin_ws/src/Kimera-RPGO/include/KimeraRPGO/outlier/Pcm.h: In instantiation of ‘[01m[Kgtsam::Values KimeraRPGO::Pcm<poseT, T>::multirobotValueInitialization(const gtsam::Values&) [with poseT = gtsam::Pose2; T = KimeraRPGO::PoseWithNode][m[K’:
+[01m[K/home/banafshe/catkin_ws/src/Kimera-RPGO/include/KimeraRPGO/outlier/Pcm.h:260:24:[m[K   required from ‘[01m[Kbool KimeraRPGO::Pcm<poseT, T>::removeOutliers(const gtsam::NonlinearFactorGraph&, const gtsam::Values&, gtsam::NonlinearFactorGraph*, gtsam::Values*) [with poseT = gtsam::Pose2; T = KimeraRPGO::PoseWithNode][m[K’
+[01m[K/home/banafshe/catkin_ws/src/Kimera-RPGO/include/KimeraRPGO/outlier/Pcm.h:145:8:[m[K   required from here
+[01m[K/home/banafshe/catkin_ws/src/Kimera-RPGO/include/KimeraRPGO/outlier/Pcm.h:1052:9:[m[K [01;35m[Kwarning: [m[Kcatching polymorphic type ‘[01m[Kclass std::out_of_range[m[K’ by value [[01;35m[K-Wcatch-value=[m[K]
+/home/banafshe/catkin_ws/src/Kimera-RPGO/include/KimeraRPGO/outlier/Pcm.h: In instantiation of ‘[01m[Kgtsam::Values KimeraRPGO::Pcm<poseT, T>::multirobotValueInitialization(const gtsam::Values&) [with poseT = gtsam::Pose3; T = KimeraRPGO::PoseWithCovariance][m[K’:
+[01m[K/home/banafshe/catkin_ws/src/Kimera-RPGO/include/KimeraRPGO/outlier/Pcm.h:260:24:[m[K   required from ‘[01m[Kbool KimeraRPGO::Pcm<poseT, T>::removeOutliers(const gtsam::NonlinearFactorGraph&, const gtsam::Values&, gtsam::NonlinearFactorGraph*, gtsam::Values*) [with poseT = gtsam::Pose3; T = KimeraRPGO::PoseWithCovariance][m[K’
+[01m[K/home/banafshe/catkin_ws/src/Kimera-RPGO/include/KimeraRPGO/outlier/Pcm.h:145:8:[m[K   required from here
+[01m[K/home/banafshe/catkin_ws/src/Kimera-RPGO/include/KimeraRPGO/outlier/Pcm.h:1052:9:[m[K [01;35m[Kwarning: [m[Kcatching polymorphic type ‘[01m[Kclass std::out_of_range[m[K’ by value [[01;35m[K-Wcatch-value=[m[K]
+/home/banafshe/catkin_ws/src/Kimera-RPGO/include/KimeraRPGO/outlier/Pcm.h: In instantiation of ‘[01m[Kgtsam::Values KimeraRPGO::Pcm<poseT, T>::multirobotValueInitialization(const gtsam::Values&) [with poseT = gtsam::Pose2; T = KimeraRPGO::PoseWithCovariance][m[K’:
+[01m[K/home/banafshe/catkin_ws/src/Kimera-RPGO/include/KimeraRPGO/outlier/Pcm.h:260:24:[m[K   required from ‘[01m[Kbool KimeraRPGO::Pcm<poseT, T>::removeOutliers(const gtsam::NonlinearFactorGraph&, const gtsam::Values&, gtsam::NonlinearFactorGraph*, gtsam::Values*) [with poseT = gtsam::Pose2; T = KimeraRPGO::PoseWithCovariance][m[K’
+[01m[K/home/banafshe/catkin_ws/src/Kimera-RPGO/include/KimeraRPGO/outlier/Pcm.h:145:8:[m[K   required from here
+[01m[K/home/banafshe/catkin_ws/src/Kimera-RPGO/include/KimeraRPGO/outlier/Pcm.h:1052:9:[m[K [01;35m[Kwarning: [m[Kcatching polymorphic type ‘[01m[Kclass std::out_of_range[m[K’ by value [[01;35m[K-Wcatch-value=[m[K]
+[01m[K/home/banafshe/catkin_ws/src/Kimera-RPGO/include/KimeraRPGO/max_clique_finder/findClique.cpp:[m[K In function ‘[01m[Kvoid FMC::maxCliqueHelper(FMC::CGraphIO*, std::vector<int>*, size_t, size_t*, std::vector<int>*)[m[K’:
+[01m[K/home/banafshe/catkin_ws/src/Kimera-RPGO/include/KimeraRPGO/max_clique_finder/findClique.cpp:60:47:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+   60 |       if ([01;35m[KgetDegree(ptrVertex, (*ptrEdge)[j]) >= *maxClq[m[K) {
+      |           [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[01m[K/home/banafshe/catkin_ws/src/Kimera-RPGO/include/KimeraRPGO/max_clique_finder/findClique.cpp:73:17:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K-Wsign-compare[m[K]
+   73 |     if ([01;35m[K*maxClq > maxClq_prev[m[K) max_clique_data_inter->push_back(index);
+      |         [01;35m[K~~~~~~~~^~~~~~~~~~~~~[m[K
+[01m[K/home/banafshe/catkin_ws/src/Kimera-RPGO/include/KimeraRPGO/max_clique_finder/findClique.cpp:36:7:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KiPos[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   36 |   int [01;35m[KiPos[m[K, index = 0, maxClq_prev;
+      |       [01;35m[K^~~~[m[K
+[01m[K/home/banafshe/catkin_ws/src/Kimera-RPGO/include/KimeraRPGO/max_clique_finder/findClique.cpp:[m[K In function ‘[01m[Kint FMC::maxClique(FMC::CGraphIO*, size_t, std::vector<int>*)[m[K’:
+[01m[K/home/banafshe/catkin_ws/src/Kimera-RPGO/include/KimeraRPGO/max_clique_finder/findClique.cpp:107:33:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  107 |     if ([01;35m[KgetDegree(ptrVertex, i) < maxClq[m[K) {
+      |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[01m[K/home/banafshe/catkin_ws/src/Kimera-RPGO/include/KimeraRPGO/max_clique_finder/findClique.cpp:116:49:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  116 |         if ([01;35m[KgetDegree(ptrVertex, (*ptrEdge)[j]) >= maxClq[m[K)
+      |             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~[m[K
+[01m[K/home/banafshe/catkin_ws/src/Kimera-RPGO/include/KimeraRPGO/max_clique_finder/findClique.cpp:127:16:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K-Wsign-compare[m[K]
+  127 |     if ([01;35m[KmaxClq > prev_maxClq[m[K) {
+      |         [01;35m[K~~~~~~~^~~~~~~~~~~~~[m[K
+[01m[K/home/banafshe/catkin_ws/src/Kimera-RPGO/include/KimeraRPGO/max_clique_finder/findCliqueHeu.cpp:[m[K In function ‘[01m[Kint FMC::maxCliqueHeu(FMC::CGraphIO*, std::vector<int>*)[m[K’:
+[01m[K/home/banafshe/catkin_ws/src/Kimera-RPGO/include/KimeraRPGO/max_clique_finder/findCliqueHeu.cpp:61:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kz[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   61 |     int [01;35m[Kz[m[K, imdv = iCandidateVertex,
+      |         [01;35m[K^[m[K
+[01m[K/home/banafshe/catkin_ws/src/Kimera-RPGO/include/KimeraRPGO/max_clique_finder/findCliqueHeu.cpp:62:12:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kimd[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+   62 |            [01;35m[Kimd[m[K = (*p_v_i_Vertices)[iCandidateVertex + 1] -
+      |            [01;35m[K^~~[m[K
+[01m[K/home/banafshe/catkin_ws/src/Kimera-RPGO/include/KimeraRPGO/max_clique_finder/findCliqueHeu.cpp:38:20:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ku[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   38 |   int maxClq = -1, [01;35m[Ku[m[K, icc;
+      |                    [01;35m[K^[m[K
+[01m[K/home/banafshe/catkin_ws/src/Kimera-RPGO/include/KimeraRPGO/max_clique_finder/findCliqueHeu.cpp:44:20:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KiCount[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   44 |   int iPos, iPos1, [01;35m[KiCount[m[K, iCount1;
+      |                    [01;35m[K^~~~~~[m[K
+[01m[K/home/banafshe/catkin_ws/src/Kimera-RPGO/include/KimeraRPGO/max_clique_finder/findCliqueHeu.cpp:44:28:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KiCount1[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   44 |   int iPos, iPos1, iCount, [01;35m[KiCount1[m[K;
+      |                            [01;35m[K^~~~~~~[m[K
+[01m[K/home/banafshe/catkin_ws/src/Kimera-RPGO/include/KimeraRPGO/max_clique_finder/findCliqueHeu.cpp:[m[K In function ‘[01m[Kint FMC::maxCliqueHeuIncremental(FMC::CGraphIO*, size_t, size_t, std::vector<int>*)[m[K’:
+[01m[K/home/banafshe/catkin_ws/src/Kimera-RPGO/include/KimeraRPGO/max_clique_finder/findCliqueHeu.cpp:153:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kz[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  153 |     int [01;35m[Kz[m[K, imdv = iCandidateVertex,
+      |         [01;35m[K^[m[K
+[01m[K/home/banafshe/catkin_ws/src/Kimera-RPGO/include/KimeraRPGO/max_clique_finder/findCliqueHeu.cpp:154:12:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kimd[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+  154 |            [01;35m[Kimd[m[K = (*p_v_i_Vertices)[iCandidateVertex + 1] -
+      |            [01;35m[K^~~[m[K
+[01m[K/home/banafshe/catkin_ws/src/Kimera-RPGO/include/KimeraRPGO/max_clique_finder/findCliqueHeu.cpp:129:37:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ku[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  129 |   int maxClq = prev_maxclique_size, [01;35m[Ku[m[K, icc;
+      |                                     [01;35m[K^[m[K
+[01m[K/home/banafshe/catkin_ws/src/Kimera-RPGO/include/KimeraRPGO/max_clique_finder/findCliqueHeu.cpp:135:20:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KiCount[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  135 |   int iPos, iPos1, [01;35m[KiCount[m[K, iCount1;
+      |                    [01;35m[K^~~~~~[m[K
+[01m[K/home/banafshe/catkin_ws/src/Kimera-RPGO/include/KimeraRPGO/max_clique_finder/findCliqueHeu.cpp:135:28:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KiCount1[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  135 |   int iPos, iPos1, iCount, [01;35m[KiCount1[m[K;
+      |                            [01;35m[K^~~~~~~[m[K
+[01m[K/home/banafshe/catkin_ws/src/Kimera-RPGO/include/KimeraRPGO/max_clique_finder/graphIO.cpp:[m[K In member function ‘[01m[Kbool FMC::CGraphIO::ReadEigenAdjacencyMatrix(Eigen::MatrixXd)[m[K’:
+[01m[K/home/banafshe/catkin_ws/src/Kimera-RPGO/include/KimeraRPGO/max_clique_finder/graphIO.cpp:205:15:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[K__gnu_cxx::__alloc_traits<std::allocator<int>, int>::value_type[m[K’ {aka ‘[01m[Kint[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  205 |         if (j == nodeList[i][k]) {
+[01m[K/home/banafshe/catkin_ws/src/Kimera-RPGO/include/KimeraRPGO/max_clique_finder/graphIO.cpp:222:21:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  222 |   for (int i = 0; [01;35m[Ki < row[m[K; i++) {
+      |                   [01;35m[K~~^~~~~[m[K

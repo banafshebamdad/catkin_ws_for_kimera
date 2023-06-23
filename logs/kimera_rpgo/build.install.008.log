@@ -1,0 +1,27 @@
+[ 60%] Built target KimeraRPGO
+[ 73%] Built target RpgoReadG2o
+[ 86%] Built target RpgoReadG2oIncremental
+[100%] Built target GenerateTrajectories
+[36mInstall the project...[0m
+-- Install configuration: "Release"
+-- Up-to-date: /home/banafshe/catkin_ws/devel/lib/libKimeraRPGO.so
+-- Up-to-date: /home/banafshe/catkin_ws/devel/lib/cmake/KimeraRPGO/KimeraRPGOTargets.cmake
+-- Up-to-date: /home/banafshe/catkin_ws/devel/lib/cmake/KimeraRPGO/KimeraRPGOTargets-release.cmake
+-- Up-to-date: /home/banafshe/catkin_ws/devel/include
+-- Up-to-date: /home/banafshe/catkin_ws/devel/include/KimeraRPGO
+-- Up-to-date: /home/banafshe/catkin_ws/devel/include/KimeraRPGO/max_clique_finder
+-- Up-to-date: /home/banafshe/catkin_ws/devel/include/KimeraRPGO/max_clique_finder/graphIO.h
+-- Up-to-date: /home/banafshe/catkin_ws/devel/include/KimeraRPGO/max_clique_finder/findClique.h
+-- Up-to-date: /home/banafshe/catkin_ws/devel/include/KimeraRPGO/Logger.h
+-- Up-to-date: /home/banafshe/catkin_ws/devel/include/KimeraRPGO/RobustSolver.h
+-- Up-to-date: /home/banafshe/catkin_ws/devel/include/KimeraRPGO/utils
+-- Up-to-date: /home/banafshe/catkin_ws/devel/include/KimeraRPGO/utils/TypeUtils.h
+-- Up-to-date: /home/banafshe/catkin_ws/devel/include/KimeraRPGO/utils/GeometryUtils.h
+-- Up-to-date: /home/banafshe/catkin_ws/devel/include/KimeraRPGO/utils/GraphUtils.h
+-- Up-to-date: /home/banafshe/catkin_ws/devel/include/KimeraRPGO/GenericSolver.h
+-- Up-to-date: /home/banafshe/catkin_ws/devel/include/KimeraRPGO/SolverParams.h
+-- Up-to-date: /home/banafshe/catkin_ws/devel/include/KimeraRPGO/outlier
+-- Up-to-date: /home/banafshe/catkin_ws/devel/include/KimeraRPGO/outlier/OutlierRemoval.h
+-- Up-to-date: /home/banafshe/catkin_ws/devel/include/KimeraRPGO/outlier/Pcm.h
+-- Up-to-date: /home/banafshe/catkin_ws/devel/lib/cmake/KimeraRPGO/KimeraRPGOConfig.cmake
+-- Up-to-date: /home/banafshe/catkin_ws/devel/lib/cmake/KimeraRPGO/KimeraRPGOConfigVersion.cmake

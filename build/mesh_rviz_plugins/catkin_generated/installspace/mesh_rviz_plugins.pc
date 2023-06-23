@@ -1,0 +1,8 @@
+prefix=/home/banafshe/catkin_ws/install
+
+Name: mesh_rviz_plugins
+Description: Description of mesh_rviz_plugins
+Version: 1.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lmesh_rviz_plugins
+Requires: roscpp std_msgs sensor_msgs nav_msgs pcl_ros pcl_msgs pcl_conversions nodelet cv_bridge message_generation message_runtime image_geometry camera_info_manager rviz

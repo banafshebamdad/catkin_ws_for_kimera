@@ -1,0 +1,67 @@
+[  2%] Built target CppUnitLite
+[ 18%] Built target metis-gtsam
+[ 57%] Built target gtsam
+[ 60%] Built target UGM_chain
+[ 60%] Built target VisualISAMExample
+[ 60%] Built target StereoVOExample
+[ 60%] Built target SelfCalibrationExample
+[ 60%] Built target easyPoint2KalmanFilter
+[ 60%] Built target SFMExample_SmartFactorPCG
+[ 63%] Built target ISAM2Example_SmartFactor
+[ 65%] Built target SolverComparer
+[ 68%] Built target SFMExample
+[ 71%] Built target LocalizationExample
+[ 73%] Built target SimpleRotation
+[ 73%] Built target StereoVOExample_large
+[ 76%] Built target SFMExample_bal
+[ 76%] Built target RangeISAMExample_plaza2
+[ 76%] Built target ShonanAveragingCLI
+[ 76%] Built target SFMExampleExpressions_bal
+[ 76%] Built target InverseKinematicsExampleExpressions
+[ 76%] Built target METISOrderingExample
+[ 76%] Built target UGM_small
+[ 76%] Built target ImuFactorsExample2
+[ 76%] Built target Pose2SLAMStressTest
+[ 76%] Built target SFMExample_SmartFactor
+[ 76%] Built target SFMExampleExpressions
+[ 76%] Built target CameraResectioning
+[ 76%] Built target CombinedImuFactorsExample
+[ 76%] Built target VisualISAM2Example
+[ 76%] Built target IMUKittiExampleGPS
+[ 76%] Built target Pose2SLAMExample_graphviz
+[ 76%] Built target Pose2SLAMExample_graph
+[ 76%] Built target DiscreteBayesNetExample
+[ 76%] Built target ImuFactorsExample
+[ 78%] Built target FisheyeExample
+[ 78%] Built target CreateSFMExampleData
+[ 78%] Built target SFMExample_bal_COLAMD_METIS
+[ 78%] Built target Pose2SLAMwSPCG
+[ 78%] Built target Pose3SLAMExample_initializePose3Chordal
+[ 78%] Built target HMMExample
+[ 78%] Built target PlanarSLAMExample
+[ 78%] Built target TimeTBB
+[ 81%] Built target Pose2SLAMExample
+[ 84%] Built target Pose2SLAMExample_lago
+[ 84%] Built target Pose2SLAMExampleExpressions
+[ 84%] Built target DiscreteBayesNet_FG
+[ 84%] Built target Pose3SLAMExample_initializePose3Gradient
+[ 84%] Built target OdometryExample
+[ 84%] Built target Pose3Localization
+[ 84%] Built target Pose3SLAMExample_g2o
+[ 86%] Built target Pose3SLAMExample_changeKeys
+[ 86%] Built target Pose3SLAMExampleExpressions_BearingRangeWithTransform
+[ 86%] Built target Pose2SLAMExample_g2o
+[ 97%] Built target gtsam_unstable
+[ 97%] Built target schedulingExample
+[ 97%] Built target schedulingQuals13
+[ 97%] Built target TimeOfArrivalExample
+[ 97%] Built target FixedLagSmootherExample
+[ 97%] Built target SmartStereoProjectionFactorExample
+[100%] Built target schedulingQuals12
+[100%] Built target SmartProjectionFactorExample
+[100%] Built target GncPoseAveragingExample
+[100%] Built target ConcurrentFilteringAndSmoothingExample
+[100%] Built target SmartRangeExample_plaza2
+[100%] Built target ISAM2_SmartFactorStereo_IMU
+[100%] Built target SmartRangeExample_plaza1
+[100%] Built target ConcurrentCalibration

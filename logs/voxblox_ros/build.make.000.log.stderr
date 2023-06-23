@@ -1,0 +1,42 @@
+In file included from [01m[K/home/banafshe/catkin_ws/devel/include/opencv2/core/core_c.h:48[m[K,
+                 from [01m[K/home/banafshe/catkin_ws/devel/include/opencv2/core/utility.hpp:1255[m[K,
+                 from [01m[K/home/banafshe/catkin_ws/devel/include/opencv2/core.hpp:3269[m[K,
+                 from [01m[K/home/banafshe/catkin_ws/devel/include/opencv2/core/core.hpp:48[m[K,
+                 from [01m[K/opt/ros/noetic/include/cv_bridge/cv_bridge.h:43[m[K,
+                 from [01m[K/home/banafshe/catkin_ws/src/voxblox/voxblox_ros/include/voxblox_ros/intensity_server.h:6[m[K,
+                 from [01m[K/home/banafshe/catkin_ws/src/voxblox/voxblox_ros/src/intensity_server.cc:1[m[K:
+[01m[K/home/banafshe/catkin_ws/devel/include/opencv2/core/types_c.h:[m[K In copy constructor ‘[01m[KCvMat::CvMat(const CvMat&)[m[K’:
+[01m[K/home/banafshe/catkin_ws/devel/include/opencv2/core/types_c.h:461:59:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid* memcpy(void*, const void*, size_t)[m[K’ writing to an object of non-trivially copyable type ‘[01m[Kstruct CvMat[m[K’; use copy-assignment or copy-initialization instead [[01;35m[K-Wclass-memaccess[m[K]
+  461 |     CvMat(const CvMat& m) { memcpy(this, &m, sizeof(CvMat)[01;35m[K)[m[K;}
+      |                                                           [01;35m[K^[m[K
+[01m[K/home/banafshe/catkin_ws/devel/include/opencv2/core/types_c.h:423:16:[m[K [01;36m[Knote: [m[K‘[01m[Kstruct CvMat[m[K’ declared here
+  423 | typedef struct [01;36m[KCvMat[m[K
+      |                [01;36m[K^~~~~[m[K
+[01m[K/home/banafshe/catkin_ws/devel/include/opencv2/core/types_c.h:[m[K In constructor ‘[01m[KCvMat::CvMat(const cv::Mat&)[m[K’:
+[01m[K/home/banafshe/catkin_ws/devel/include/opencv2/core/types_c.h:530:69:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Kconstexpr CvMat& CvMat::operator=(const CvMat&)[m[K’ is deprecated [[01;35m[K-Wdeprecated-copy[m[K]
+  530 |     *this = cvMat(m.rows, m.dims == 1 ? 1 : m.cols, m.type(), m.data[01;35m[K)[m[K;
+      |                                                                     [01;35m[K^[m[K
+[01m[K/home/banafshe/catkin_ws/devel/include/opencv2/core/types_c.h:461:5:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[KCvMat[m[K’ has user-provided ‘[01m[KCvMat::CvMat(const CvMat&)[m[K’
+  461 |     [01;36m[KCvMat[m[K(const CvMat& m) { memcpy(this, &m, sizeof(CvMat));}
+      |     [01;36m[K^~~~~[m[K
+In file included from [01m[K/home/banafshe/catkin_ws/devel/include/opencv2/core/core_c.h:48[m[K,
+                 from [01m[K/home/banafshe/catkin_ws/devel/include/opencv2/core/utility.hpp:1255[m[K,
+                 from [01m[K/home/banafshe/catkin_ws/devel/include/opencv2/core.hpp:3269[m[K,
+                 from [01m[K/home/banafshe/catkin_ws/devel/include/opencv2/core/core.hpp:48[m[K,
+                 from [01m[K/opt/ros/noetic/include/cv_bridge/cv_bridge.h:43[m[K,
+                 from [01m[K/home/banafshe/catkin_ws/src/voxblox/voxblox_ros/include/voxblox_ros/intensity_server.h:6[m[K,
+                 from [01m[K/home/banafshe/catkin_ws/src/voxblox/voxblox_ros/src/intensity_server_node.cc:1[m[K:
+[01m[K/home/banafshe/catkin_ws/devel/include/opencv2/core/types_c.h:[m[K In copy constructor ‘[01m[KCvMat::CvMat(const CvMat&)[m[K’:
+[01m[K/home/banafshe/catkin_ws/devel/include/opencv2/core/types_c.h:461:59:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid* memcpy(void*, const void*, size_t)[m[K’ writing to an object of non-trivially copyable type ‘[01m[Kstruct CvMat[m[K’; use copy-assignment or copy-initialization instead [[01;35m[K-Wclass-memaccess[m[K]
+  461 |     CvMat(const CvMat& m) { memcpy(this, &m, sizeof(CvMat)[01;35m[K)[m[K;}
+      |                                                           [01;35m[K^[m[K
+[01m[K/home/banafshe/catkin_ws/devel/include/opencv2/core/types_c.h:423:16:[m[K [01;36m[Knote: [m[K‘[01m[Kstruct CvMat[m[K’ declared here
+  423 | typedef struct [01;36m[KCvMat[m[K
+      |                [01;36m[K^~~~~[m[K
+[01m[K/home/banafshe/catkin_ws/devel/include/opencv2/core/types_c.h:[m[K In constructor ‘[01m[KCvMat::CvMat(const cv::Mat&)[m[K’:
+[01m[K/home/banafshe/catkin_ws/devel/include/opencv2/core/types_c.h:530:69:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Kconstexpr CvMat& CvMat::operator=(const CvMat&)[m[K’ is deprecated [[01;35m[K-Wdeprecated-copy[m[K]
+  530 |     *this = cvMat(m.rows, m.dims == 1 ? 1 : m.cols, m.type(), m.data[01;35m[K)[m[K;
+      |                                                                     [01;35m[K^[m[K
+[01m[K/home/banafshe/catkin_ws/devel/include/opencv2/core/types_c.h:461:5:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[KCvMat[m[K’ has user-provided ‘[01m[KCvMat::CvMat(const CvMat&)[m[K’
+  461 |     [01;36m[KCvMat[m[K(const CvMat& m) { memcpy(this, &m, sizeof(CvMat));}
+      |     [01;36m[K^~~~~[m[K

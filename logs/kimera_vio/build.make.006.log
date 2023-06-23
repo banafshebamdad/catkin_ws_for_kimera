@@ -1,0 +1,560 @@
+[  2%] Built target gtest
+[35m[1mScanning dependencies of target kimera_vio[0m
+[  4%] [32mBuilding CXX object CMakeFiles/kimera_vio.dir/src/dataprovider/DataProviderInterface.cpp.o[0m
+[  4%] [32mBuilding CXX object CMakeFiles/kimera_vio.dir/src/dataprovider/MonoDataProviderModule.cpp.o[0m
+[  5%] [32mBuilding CXX object CMakeFiles/kimera_vio.dir/src/dataprovider/RgbdDataProviderModule.cpp.o[0m
+[  5%] [32mBuilding CXX object CMakeFiles/kimera_vio.dir/src/dataprovider/KittiDataProvider.cpp.o[0m
+[  6%] [32mBuilding CXX object CMakeFiles/kimera_vio.dir/src/dataprovider/StereoDataProviderModule.cpp.o[0m
+[  4%] [32mBuilding CXX object CMakeFiles/kimera_vio.dir/src/dataprovider/DataProviderModule.cpp.o[0m
+[  7%] [32mBuilding CXX object CMakeFiles/kimera_vio.dir/src/dataprovider/EurocDataProvider.cpp.o[0m
+[  8%] [32mBuilding CXX object CMakeFiles/kimera_vio.dir/src/playground/EurocPlayground.cpp.o[0m
+[  8%] [32mBuilding CXX object CMakeFiles/kimera_vio.dir/src/frontend/StereoMatcher.cpp.o[0m
+[  9%] [32mBuilding CXX object CMakeFiles/kimera_vio.dir/src/frontend/StereoVisionImuFrontend.cpp.o[0m
+[  9%] [32mBuilding CXX object CMakeFiles/kimera_vio.dir/src/frontend/MonoVisionImuFrontend.cpp.o[0m
+[ 10%] [32mBuilding CXX object CMakeFiles/kimera_vio.dir/src/frontend/VisionImuFrontend.cpp.o[0m
+[ 11%] [32mBuilding CXX object CMakeFiles/kimera_vio.dir/src/frontend/VisionImuFrontendModule.cpp.o[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/kimera_vio.dir/src/frontend/Tracker.cpp.o[0m
+[ 13%] [32mBuilding CXX object CMakeFiles/kimera_vio.dir/src/mesh/Mesher.cpp.o[0m
+[ 13%] [32mBuilding CXX object CMakeFiles/kimera_vio.dir/src/mesh/MeshOptimization.cpp.o[0m
+[ 14%] [32mBuilding CXX object CMakeFiles/kimera_vio.dir/src/mesh/MesherFactory.cpp.o[0m
+[ 15%] [32mBuilding CXX object CMakeFiles/kimera_vio.dir/src/mesh/MesherModule.cpp.o[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/kimera_vio.dir/src/pipeline/MonoImuPipeline.cpp.o[0m
+[ 17%] [32mBuilding CXX object CMakeFiles/kimera_vio.dir/src/pipeline/Pipeline.cpp.o[0m
+[ 17%] [32mBuilding CXX object CMakeFiles/kimera_vio.dir/src/pipeline/Pipeline-definitions.cpp.o[0m
+[ 18%] [32mBuilding CXX object CMakeFiles/kimera_vio.dir/src/pipeline/StereoImuPipeline.cpp.o[0m
+In file included from [01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/utils/UtilsOpenCV.h:34[m[K,
+                 from [01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/frontend/CameraParams.h:27[m[K,
+                 from [01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/frontend/Camera.h:25[m[K,
+                 from [01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/frontend/StereoCamera.h:26[m[K,
+                 from [01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/frontend/StereoMatcher.h:18[m[K,
+                 from [01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/src/frontend/StereoMatcher.cpp:15[m[K:
+[01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/common/vio_types.h:70:13:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid VIO::getValidKeypointsFromStatusKeypointsCV(const StatusKeypointsCV&, VIO::KeypointsCV*)[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+   70 | static void [01;35m[KgetValidKeypointsFromStatusKeypointsCV[m[K(
+      |             [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/src/mesh/MeshOptimization.cpp:16[m[K:
+[01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/mesh/MeshOptimization.h:[m[K In constructor ‘[01m[KVIO::MeshOptimization::MeshOptimization(const VIO::MeshOptimizerType&, const VIO::MeshColorType&, VIO::Camera::ConstPtr, VIO::OpenCvVisualizer3D::Ptr)[m[K’:
+[01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/mesh/MeshOptimization.h:188:27:[m[K [01;35m[Kwarning: [m[K‘[01m[KVIO::MeshOptimization::visualizer_[m[K’ will be initialized after [[01;35m[K-Wreorder[m[K]
+  188 |   OpenCvVisualizer3D::Ptr [01;35m[Kvisualizer_[m[K;
+      |                           [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/mesh/MeshOptimization.h:168:27:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kconst VIO::MeshOptimizerType VIO::MeshOptimization::mesh_optimizer_type_[m[K’ [[01;35m[K-Wreorder[m[K]
+  168 |   const MeshOptimizerType [01;35m[Kmesh_optimizer_type_[m[K;
+      |                           [01;35m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/src/mesh/MeshOptimization.cpp:43:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+   43 | [01;35m[KMeshOptimization[m[K::MeshOptimization(const MeshOptimizerType& solver_type,
+      | [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/src/mesh/MeshOptimization.cpp:[m[K In member function ‘[01m[Kvoid VIO::MeshOptimization::collectTriangleDataPoints(const cv::Mat&, const Mesh2D&, VIO::MeshOptimization::TriangleToDatapoints*, VIO::MeshOptimization::TriangleToPixels*, size_t*)[m[K’:
+[01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/src/mesh/MeshOptimization.cpp:219:25:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kconst int[m[K’ [[01;35m[K-Wsign-compare[m[K]
+  219 |   for (size_t u = 0u; [01;35m[Ku < noisy_point_cloud.cols[m[K; ++u) {
+      |                       [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/src/mesh/MeshOptimization.cpp:220:27:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kconst int[m[K’ [[01;35m[K-Wsign-compare[m[K]
+  220 |     for (size_t v = 0u; [01;35m[Kv < noisy_point_cloud.rows[m[K; ++v) {
+      |                         [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/src/mesh/MeshOptimization.cpp:[m[K In member function ‘[01m[KVIO::MeshOptimizationOutput::UniquePtr VIO::MeshOptimization::solveOptimalMesh(const cv::Mat&, const cv::Mat&, const Mesh2D&)[m[K’:
+[01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/src/mesh/MeshOptimization.cpp:511:31:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K-Wsign-compare[m[K]
+  511 |         for (size_t v = 0u; [01;35m[Kv < adjacency_matrix.rows[m[K; v++) {
+      |                             [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/src/mesh/MeshOptimization.cpp:513:33:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K-Wsign-compare[m[K]
+  513 |           for (size_t u = 0u; [01;35m[Ku < adjacency_matrix.cols[m[K; u++) {
+      |                               [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/mesh/MesherFactory.h:18[m[K,
+                 from [01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/src/mesh/MesherFactory.cpp:15[m[K:
+[01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/mesh/Mesher.h:[m[K In static member function ‘[01m[Kstatic std::vector<cv::Vec<float, 6> > VIO::Mesher::computeDelaunayTriangulation(const KeypointsCV&, VIO::Mesher::MeshIndices*)[m[K’:
+[01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/mesh/Mesher.h:183:27:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint32_t[m[K’ {aka ‘[01m[Kint[m[K’} and ‘[01m[Kstd::vector<cv::Point_<float> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  183 |     for (int32_t i = 0; [01;35m[Ki < keypoints.size()[m[K; i++) {
+      |                         [01;35m[K~~^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/src/dataprovider/KittiDataProvider.cpp:[m[K In member function ‘[01m[KVIO::KittiDataProvider::KittiData::operator bool() const[m[K’:
+[01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/src/dataprovider/KittiDataProvider.cpp:29:26:[m[K [01;35m[Kwarning: [m[Ksuggest parentheses around comparison in operand of ‘[01m[K==[m[K’ [[01;35m[K-Wparentheses[m[K]
+   29 |       [01;35m[Ktimestamps_.size() == left_img_names_.size()[m[K == right_img_names_.size();
+      |       [01;35m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/src/frontend/MonoVisionImuFrontend.cpp:[m[K In member function ‘[01m[KVIO::MonoFrontendOutput::UniquePtr VIO::MonoVisionImuFrontend::nominalSpinMono(VIO::MonoImuSyncPacket::UniquePtr&&)[m[K’:
+[01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/src/frontend/MonoVisionImuFrontend.cpp:96:8:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Ktic_full_preint[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+   96 |   auto [01;35m[Ktic_full_preint[m[K = utils::Timer::tic();
+      |        [01;35m[K^~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/src/mesh/Mesher.cpp:15[m[K:
+[01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/mesh/Mesher.h:[m[K In static member function ‘[01m[Kstatic std::vector<cv::Vec<float, 6> > VIO::Mesher::computeDelaunayTriangulation(const KeypointsCV&, VIO::Mesher::MeshIndices*)[m[K’:
+[01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/mesh/Mesher.h:183:27:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint32_t[m[K’ {aka ‘[01m[Kint[m[K’} and ‘[01m[Kstd::vector<cv::Point_<float> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  183 |     for (int32_t i = 0; [01;35m[Ki < keypoints.size()[m[K; i++) {
+      |                         [01;35m[K~~^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/mesh/Mesher.h:[m[K In constructor ‘[01m[KVIO::Mesher::Mesher(const VIO::MesherParams&, const bool&)[m[K’:
+[01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/mesh/Mesher.h:537:22:[m[K [01;35m[Kwarning: [m[K‘[01m[KVIO::Mesher::mesher_params_[m[K’ will be initialized after [[01;35m[K-Wreorder[m[K]
+  537 |   const MesherParams [01;35m[Kmesher_params_[m[K;
+      |                      [01;35m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/mesh/Mesher.h:528:10:[m[K [01;35m[Kwarning: [m[K  ‘[01m[KVIO::Mesh2D VIO::Mesher::mesh_2d_[m[K’ [[01;35m[K-Wreorder[m[K]
+  528 |   Mesh2D [01;35m[Kmesh_2d_[m[K;
+      |          [01;35m[K^~~~~~~~[m[K
+[01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/src/mesh/Mesher.cpp:177:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+  177 | [01;35m[KMesher[m[K::Mesher(const MesherParams& mesher_params, const bool& serialize_meshes)
+      | [01;35m[K^~~~~~[m[K
+In file included from [01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/mesh/MesherModule.h:18[m[K,
+                 from [01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/src/mesh/MesherModule.cpp:15[m[K:
+[01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/mesh/Mesher.h:[m[K In static member function ‘[01m[Kstatic std::vector<cv::Vec<float, 6> > VIO::Mesher::computeDelaunayTriangulation(const KeypointsCV&, VIO::Mesher::MeshIndices*)[m[K’:
+[01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/mesh/Mesher.h:183:27:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint32_t[m[K’ {aka ‘[01m[Kint[m[K’} and ‘[01m[Kstd::vector<cv::Point_<float> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  183 |     for (int32_t i = 0; [01;35m[Ki < keypoints.size()[m[K; i++) {
+      |                         [01;35m[K~~^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/src/mesh/Mesher.cpp:[m[K In member function ‘[01m[Kvoid VIO::Mesher::clusterNormalsPerpendicularToAxis(const Point3f&, const std::vector<cv::Point3_<float> >&, const double&, std::vector<int>*)[m[K’:
+[01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/src/mesh/Mesher.cpp:695:25:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Klog_normals[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  695 |   static constexpr bool [01;35m[Klog_normals[m[K = false;
+      |                         [01;35m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/src/dataprovider/EurocDataProvider.cpp:17[m[K:
+[01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/dataprovider/EurocDataProvider.h:[m[K In constructor ‘[01m[KVIO::EurocDataProvider::EurocDataProvider(const string&, const int&, const int&, const VIO::VioParams&)[m[K’:
+[01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/dataprovider/EurocDataProvider.h:220:11:[m[K [01;35m[Kwarning: [m[K‘[01m[KVIO::EurocDataProvider::final_k_[m[K’ will be initialized after [[01;35m[K-Wreorder[m[K]
+  220 |   FrameId [01;35m[Kfinal_k_[m[K;    // end frame
+      |           [01;35m[K^~~~~~~~[m[K
+[01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/dataprovider/EurocDataProvider.h:205:13:[m[K [01;35m[Kwarning: [m[K  ‘[01m[KVIO::VioParams VIO::EurocDataProvider::vio_params_[m[K’ [[01;35m[K-Wreorder[m[K]
+  205 |   VioParams [01;35m[Kvio_params_[m[K;
+      |             [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/src/dataprovider/EurocDataProvider.cpp:57:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+   57 | [01;35m[KEurocDataProvider[m[K::EurocDataProvider(const std::string& dataset_path,
+      | [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/src/dataprovider/EurocDataProvider.cpp:[m[K In member function ‘[01m[Kbool VIO::EurocDataProvider::parseImuData(const string&, const string&)[m[K’:
+[01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/src/dataprovider/EurocDataProvider.cpp:250:27:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[KEigen::EigenBase<Eigen::Matrix<double, 6, 1> >::Index[m[K’ {aka ‘[01m[Klong int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  250 |     for (size_t i = 0u; [01;35m[Ki < gyr_acc_data.size() + 1u[m[K; i++) {
+      |                         [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/src/frontend/Tracker.cpp:8[m[K:
+[01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/frontend/Tracker.h:[m[K In constructor ‘[01m[KVIO::Tracker::Tracker(const VIO::FrontendParams&, const ConstPtr&, VIO::DisplayQueue*)[m[K’:
+[01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/frontend/Tracker.h:155:14:[m[K [01;35m[Kwarning: [m[K‘[01m[KVIO::Tracker::landmark_count_[m[K’ will be initialized after [[01;35m[K-Wreorder[m[K]
+  155 |   LandmarkId [01;35m[Klandmark_count_[m[K;
+      |              [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/frontend/Tracker.h:61:24:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kconst VIO::FrontendParams VIO::Tracker::tracker_params_[m[K’ [[01;35m[K-Wreorder[m[K]
+   61 |   const FrontendParams [01;35m[Ktracker_params_[m[K;
+      |                        [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/src/frontend/Tracker.cpp:37:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+   37 | [01;35m[KTracker[m[K::Tracker(const FrontendParams& tracker_params,
+      | [01;35m[K^~~~~~~[m[K
+[01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/src/dataprovider/EurocDataProvider.cpp:[m[K In member function ‘[01m[Kconst VIO::InitializationPerformance VIO::EurocDataProvider::getInitializationPerformance(const std::vector<long int>&, const std::vector<gtsam::Pose3>&, const VIO::VioNavState&, const Vector3&)[m[K’:
+[01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/src/dataprovider/EurocDataProvider.cpp:632:21:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<long int>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  632 |   for (int i = 1; [01;35m[Ki < timestamps.size()[m[K; i++) {
+      |                   [01;35m[K~~^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/src/frontend/Tracker.cpp:[m[K In member function ‘[01m[Kvoid VIO::Tracker::featureTracking(VIO::Frame*, VIO::Frame*, const gtsam::Rot3&, boost::optional<cv::Mat>)[m[K’:
+[01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/src/frontend/Tracker.cpp:155:31:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kconst size_t[m[K’ {aka ‘[01m[Kconst long unsigned int[m[K’} and ‘[01m[Kconst int[m[K’ [[01;35m[K-Wsign-compare[m[K]
+  155 |     if (!status[i] || [01;35m[Klmk_age > tracker_params_.maxFeatureAge_[m[K) {
+      |                       [01;35m[K~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/src/frontend/Tracker.cpp:[m[K In member function ‘[01m[Kstd::pair<VIO::TrackingStatus, gtsam::Pose3> VIO::Tracker::geometricOutlierRejectionMono(VIO::Frame*, VIO::Frame*)[m[K’:
+[01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/src/frontend/Tracker.cpp:245:36:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kstd::vector<int>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kconst int[m[K’ [[01;35m[K-Wsign-compare[m[K]
+  245 |   if ([01;35m[Kmono_ransac_.inliers_.size() < tracker_params_.minNrMonoInliers_[m[K) {
+      |       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/src/frontend/Tracker.cpp:[m[K In member function ‘[01m[Kstd::pair<VIO::TrackingStatus, gtsam::Pose3> VIO::Tracker::geometricOutlierRejectionMonoGivenRotation(VIO::Frame*, VIO::Frame*, const gtsam::Rot3&)[m[K’:
+[01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/src/frontend/Tracker.cpp:338:46:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kstd::vector<int>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kconst int[m[K’ [[01;35m[K-Wsign-compare[m[K]
+  338 |   if ([01;35m[Kmono_ransac_given_rot_.inliers_.size() <[m[K
+      |       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+  339 | [01;35m[K      tracker_params_.minNrMonoInliers_[m[K) {
+      |       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K       
+In file included from [01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/src/frontend/StereoVisionImuFrontend.cpp:16[m[K:
+[01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/frontend/StereoVisionImuFrontend.h:[m[K In constructor ‘[01m[KVIO::StereoVisionImuFrontend::StereoVisionImuFrontend(const VIO::ImuParams&, const ImuBias&, const VIO::FrontendParams&, const ConstPtr&, VIO::DisplayQueue*, bool)[m[K’:
+[01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/frontend/StereoVisionImuFrontend.h:197:18:[m[K [01;35m[Kwarning: [m[K‘[01m[KVIO::StereoVisionImuFrontend::frontend_params_[m[K’ will be initialized after [[01;35m[K-Wreorder[m[K]
+  197 |   FrontendParams [01;35m[Kfrontend_params_[m[K;
+      |                  [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/frontend/StereoVisionImuFrontend.h:184:26:[m[K [01;35m[Kwarning: [m[K  ‘[01m[KVIO::StereoCamera::ConstPtr VIO::StereoVisionImuFrontend::stereo_camera_[m[K’ [[01;35m[K-Wreorder[m[K]
+  184 |   StereoCamera::ConstPtr [01;35m[Kstereo_camera_[m[K;
+      |                          [01;35m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/src/frontend/StereoVisionImuFrontend.cpp:31:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+   31 | [01;35m[KStereoVisionImuFrontend[m[K::StereoVisionImuFrontend(
+      | [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/src/frontend/Tracker.cpp:[m[K In member function ‘[01m[Kstd::pair<std::pair<VIO::TrackingStatus, gtsam::Pose3>, Eigen::Matrix<double, 3, 3> > VIO::Tracker::geometricOutlierRejectionStereoGivenRotation(VIO::StereoFrame&, VIO::StereoFrame&, VIO::StereoCamera::ConstPtr, const gtsam::Rot3&)[m[K’:
+[01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/src/frontend/Tracker.cpp:600:22:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kstd::vector<int>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kconst int[m[K’ [[01;35m[K-Wsign-compare[m[K]
+  600 |   if ([01;35m[Kinliers.size() < tracker_params_.minNrStereoInliers_[m[K) {
+      |       [01;35m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/src/frontend/Tracker.cpp:[m[K In member function ‘[01m[Kstd::pair<VIO::TrackingStatus, gtsam::Pose3> VIO::Tracker::geometricOutlierRejectionStereo(VIO::StereoFrame&, VIO::StereoFrame&)[m[K’:
+[01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/src/frontend/Tracker.cpp:698:38:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kstd::vector<int>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kconst int[m[K’ [[01;35m[K-Wsign-compare[m[K]
+  698 |   if ([01;35m[Kstereo_ransac_.inliers_.size() < tracker_params_.minNrStereoInliers_[m[K) {
+      |       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/src/playground/EurocPlayground.cpp:1[m[K:
+[01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/playground/EurocPlayground.h:[m[K In constructor ‘[01m[KVIO::EurocPlayground::EurocPlayground(const string&, const string&, const int&, const int&, const size_t&)[m[K’:
+[01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/playground/EurocPlayground.h:114:17:[m[K [01;35m[Kwarning: [m[K‘[01m[KVIO::EurocPlayground::subsample_n[m[K’ will be initialized after [[01;35m[K-Wreorder[m[K]
+  114 |   const FrameId [01;35m[Ksubsample_n[m[K = 50u;
+      |                 [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/playground/EurocPlayground.h:88:13:[m[K [01;35m[Kwarning: [m[K  ‘[01m[KVIO::VioParams VIO::EurocPlayground::vio_params_[m[K’ [[01;35m[K-Wreorder[m[K]
+   88 |   VioParams [01;35m[Kvio_params_[m[K;
+      |             [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/src/playground/EurocPlayground.cpp:9:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+    9 | [01;35m[KEurocPlayground[m[K::EurocPlayground(const std::string& dataset_path,
+      | [01;35m[K^~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/src/playground/EurocPlayground.cpp:1[m[K:
+[01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/playground/EurocPlayground.h:121:32:[m[K [01;35m[Kwarning: [m[K‘[01m[KVIO::EurocPlayground::euroc_data_provider_[m[K’ will be initialized after [[01;35m[K-Wreorder[m[K]
+  121 |   EurocDataProvider::UniquePtr [01;35m[Keuroc_data_provider_[m[K;
+      |                                [01;35m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/playground/EurocPlayground.h:90:27:[m[K [01;35m[Kwarning: [m[K  ‘[01m[KVIO::OpenCvVisualizer3D::Ptr VIO::EurocPlayground::visualizer_3d_[m[K’ [[01;35m[K-Wreorder[m[K]
+   90 |   OpenCvVisualizer3D::Ptr [01;35m[Kvisualizer_3d_[m[K;
+      |                           [01;35m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/src/playground/EurocPlayground.cpp:9:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+    9 | [01;35m[KEurocPlayground[m[K::EurocPlayground(const std::string& dataset_path,
+      | [01;35m[K^~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/src/playground/EurocPlayground.cpp:1[m[K:
+[01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/playground/EurocPlayground.h:128:37:[m[K [01;35m[Kwarning: [m[K‘[01m[KVIO::EurocPlayground::right_frame_queue_[m[K’ will be initialized after [[01;35m[K-Wreorder[m[K]
+  128 |   ThreadsafeQueue<Frame::UniquePtr> [01;35m[Kright_frame_queue_[m[K;
+      |                                     [01;35m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/playground/EurocPlayground.h:93:26:[m[K [01;35m[Kwarning: [m[K  ‘[01m[KVIO::StereoCamera::ConstPtr VIO::EurocPlayground::stereo_camera_[m[K’ [[01;35m[K-Wreorder[m[K]
+   93 |   StereoCamera::ConstPtr [01;35m[Kstereo_camera_[m[K;
+      |                          [01;35m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/src/playground/EurocPlayground.cpp:9:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+    9 | [01;35m[KEurocPlayground[m[K::EurocPlayground(const std::string& dataset_path,
+      | [01;35m[K^~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/mesh/MesherModule.h:18[m[K,
+                 from [01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/pipeline/Pipeline.h:33[m[K,
+                 from [01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/src/pipeline/Pipeline.cpp:16[m[K:
+[01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/mesh/Mesher.h:[m[K In static member function ‘[01m[Kstatic std::vector<cv::Vec<float, 6> > VIO::Mesher::computeDelaunayTriangulation(const KeypointsCV&, VIO::Mesher::MeshIndices*)[m[K’:
+[01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/mesh/Mesher.h:183:27:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint32_t[m[K’ {aka ‘[01m[Kint[m[K’} and ‘[01m[Kstd::vector<cv::Point_<float> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  183 |     for (int32_t i = 0; [01;35m[Ki < keypoints.size()[m[K; i++) {
+      |                         [01;35m[K~~^~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/src/pipeline/Pipeline.cpp:16[m[K:
+[01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/pipeline/Pipeline.h:[m[K In constructor ‘[01m[KVIO::Pipeline::Pipeline(const VIO::VioParams&)[m[K’:
+[01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/pipeline/Pipeline.h:277:28:[m[K [01;35m[Kwarning: [m[K‘[01m[KVIO::Pipeline::shutdown_pipeline_cb_[m[K’ will be initialized after [[01;35m[K-Wreorder[m[K]
+  277 |   ShutdownPipelineCallback [01;35m[Kshutdown_pipeline_cb_[m[K;
+      |                            [01;35m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/pipeline/Pipeline.h:243:37:[m[K [01;35m[Kwarning: [m[K  ‘[01m[KVIO::MonoDataProviderModule::UniquePtr VIO::Pipeline::data_provider_module_[m[K’ [[01;35m[K-Wreorder[m[K]
+  243 |   MonoDataProviderModule::UniquePtr [01;35m[Kdata_provider_module_[m[K;
+      |                                     [01;35m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/src/pipeline/Pipeline.cpp:52:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+   52 | [01;35m[KPipeline[m[K::Pipeline(const VioParams& params)
+      | [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/src/pipeline/Pipeline.cpp:16[m[K:
+[01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/pipeline/Pipeline.h:270:28:[m[K [01;35m[Kwarning: [m[K‘[01m[KVIO::Pipeline::display_module_[m[K’ will be initialized after [[01;35m[K-Wreorder[m[K]
+  270 |   DisplayModule::UniquePtr [01;35m[Kdisplay_module_[m[K;
+      |                            [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/pipeline/Pipeline.h:249:39:[m[K [01;35m[Kwarning: [m[K  ‘[01m[KVIO::VisionImuFrontendModule::InputQueue VIO::Pipeline::frontend_input_queue_[m[K’ [[01;35m[K-Wreorder[m[K]
+  249 |   VisionImuFrontendModule::InputQueue [01;35m[Kfrontend_input_queue_[m[K;
+      |                                       [01;35m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/src/pipeline/Pipeline.cpp:52:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+   52 | [01;35m[KPipeline[m[K::Pipeline(const VioParams& params)
+      | [01;35m[K^~~~~~~~[m[K
+[ 19%] [32mBuilding CXX object CMakeFiles/kimera_vio.dir/src/visualizer/Visualizer3D.cpp.o[0m
+In file included from [01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/mesh/MesherModule.h:18[m[K,
+                 from [01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/pipeline/Pipeline.h:33[m[K,
+                 from [01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/pipeline/MonoImuPipeline.h:19[m[K,
+                 from [01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/src/pipeline/MonoImuPipeline.cpp:15[m[K:
+[01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/mesh/Mesher.h:[m[K In static member function ‘[01m[Kstatic std::vector<cv::Vec<float, 6> > VIO::Mesher::computeDelaunayTriangulation(const KeypointsCV&, VIO::Mesher::MeshIndices*)[m[K’:
+[01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/mesh/Mesher.h:183:27:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint32_t[m[K’ {aka ‘[01m[Kint[m[K’} and ‘[01m[Kstd::vector<cv::Point_<float> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  183 |     for (int32_t i = 0; [01;35m[Ki < keypoints.size()[m[K; i++) {
+      |                         [01;35m[K~~^~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/mesh/MesherModule.h:18[m[K,
+                 from [01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/pipeline/Pipeline.h:33[m[K,
+                 from [01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/pipeline/StereoImuPipeline.h:20[m[K,
+                 from [01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/src/pipeline/StereoImuPipeline.cpp:16[m[K:
+[01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/mesh/Mesher.h:[m[K In static member function ‘[01m[Kstatic std::vector<cv::Vec<float, 6> > VIO::Mesher::computeDelaunayTriangulation(const KeypointsCV&, VIO::Mesher::MeshIndices*)[m[K’:
+[01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/mesh/Mesher.h:183:27:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint32_t[m[K’ {aka ‘[01m[Kint[m[K’} and ‘[01m[Kstd::vector<cv::Point_<float> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  183 |     for (int32_t i = 0; [01;35m[Ki < keypoints.size()[m[K; i++) {
+      |                         [01;35m[K~~^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/src/pipeline/StereoImuPipeline.cpp:[m[K In constructor ‘[01m[KVIO::StereoImuPipeline::StereoImuPipeline(const VIO::VioParams&, VIO::Visualizer3D::UniquePtr&&, VIO::DisplayBase::UniquePtr&&)[m[K’:
+[01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/src/pipeline/StereoImuPipeline.cpp:158:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Klcd_module[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  158 |     auto& [01;35m[Klcd_module[m[K = lcd_module_;
+      |           [01;35m[K^~~~~~~~~~[m[K
+In file included from [01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/utils/UtilsOpenCV.h:34[m[K,
+                 from [01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/frontend/CameraParams.h:27[m[K,
+                 from [01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/frontend/Camera.h:25[m[K,
+                 from [01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/dataprovider/DataProviderInterface.h:20[m[K,
+                 from [01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/dataprovider/KittiDataProvider.h:21[m[K,
+                 from [01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/src/dataprovider/KittiDataProvider.cpp:15[m[K:
+[01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/common/vio_types.h:[m[K At global scope:
+[01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/common/vio_types.h:70:13:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid VIO::getValidKeypointsFromStatusKeypointsCV(const StatusKeypointsCV&, VIO::KeypointsCV*)[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+   70 | static void [01;35m[KgetValidKeypointsFromStatusKeypointsCV[m[K(
+      |             [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/common/VioNavState.h:27[m[K,
+                 from [01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/backend/VioBackend-definitions.h:28[m[K,
+                 from [01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/frontend/FrontendInputPacketBase.h:17[m[K,
+                 from [01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/dataprovider/DataProviderModule.h:29[m[K,
+                 from [01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/dataprovider/MonoDataProviderModule.h:34[m[K,
+                 from [01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/dataprovider/RgbdDataProviderModule.h:29[m[K,
+                 from [01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/src/dataprovider/RgbdDataProviderModule.cpp:16[m[K:
+[01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/common/vio_types.h:70:13:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid VIO::getValidKeypointsFromStatusKeypointsCV(const StatusKeypointsCV&, VIO::KeypointsCV*)[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+   70 | static void [01;35m[KgetValidKeypointsFromStatusKeypointsCV[m[K(
+      |             [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/common/VioNavState.h:27[m[K,
+                 from [01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/dataprovider/EurocDataProvider.h:30[m[K,
+                 from [01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/src/dataprovider/EurocDataProvider.cpp:17[m[K:
+[01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/common/vio_types.h:[m[K At global scope:
+[01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/common/vio_types.h:70:13:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid VIO::getValidKeypointsFromStatusKeypointsCV(const StatusKeypointsCV&, VIO::KeypointsCV*)[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+   70 | static void [01;35m[KgetValidKeypointsFromStatusKeypointsCV[m[K(
+      |             [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/common/VioNavState.h:27[m[K,
+                 from [01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/backend/VioBackend-definitions.h:28[m[K,
+                 from [01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/frontend/FrontendInputPacketBase.h:17[m[K,
+                 from [01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/dataprovider/DataProviderModule.h:29[m[K,
+                 from [01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/dataprovider/MonoDataProviderModule.h:34[m[K,
+                 from [01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/dataprovider/StereoDataProviderModule.h:27[m[K,
+                 from [01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/src/dataprovider/StereoDataProviderModule.cpp:23[m[K:
+[01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/common/vio_types.h:70:13:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid VIO::getValidKeypointsFromStatusKeypointsCV(const StatusKeypointsCV&, VIO::KeypointsCV*)[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+   70 | static void [01;35m[KgetValidKeypointsFromStatusKeypointsCV[m[K(
+      |             [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/common/VioNavState.h:27[m[K,
+                 from [01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/backend/VioBackend-definitions.h:28[m[K,
+                 from [01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/frontend/FrontendInputPacketBase.h:17[m[K,
+                 from [01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/frontend/VisionImuFrontend.h:22[m[K,
+                 from [01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/frontend/StereoVisionImuFrontend.h:28[m[K,
+                 from [01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/src/frontend/StereoVisionImuFrontend.cpp:16[m[K:
+[01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/common/vio_types.h:[m[K At global scope:
+[01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/common/vio_types.h:70:13:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid VIO::getValidKeypointsFromStatusKeypointsCV(const StatusKeypointsCV&, VIO::KeypointsCV*)[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+   70 | static void [01;35m[KgetValidKeypointsFromStatusKeypointsCV[m[K(
+      |             [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/mesh/MeshOptimization.h:28[m[K,
+                 from [01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/src/mesh/MeshOptimization.cpp:16[m[K:
+[01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/common/vio_types.h:[m[K At global scope:
+[01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/common/vio_types.h:70:13:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid VIO::getValidKeypointsFromStatusKeypointsCV(const StatusKeypointsCV&, VIO::KeypointsCV*)[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+   70 | static void [01;35m[KgetValidKeypointsFromStatusKeypointsCV[m[K(
+      |             [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/common/VioNavState.h:27[m[K,
+                 from [01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/backend/VioBackend-definitions.h:28[m[K,
+                 from [01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/frontend/FrontendInputPacketBase.h:17[m[K,
+                 from [01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/dataprovider/DataProviderModule.h:29[m[K,
+                 from [01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/dataprovider/MonoDataProviderModule.h:34[m[K,
+                 from [01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/src/dataprovider/MonoDataProviderModule.cpp:18[m[K:
+[01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/common/vio_types.h:70:13:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid VIO::getValidKeypointsFromStatusKeypointsCV(const StatusKeypointsCV&, VIO::KeypointsCV*)[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+   70 | static void [01;35m[KgetValidKeypointsFromStatusKeypointsCV[m[K(
+      |             [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/common/VioNavState.h:27[m[K,
+                 from [01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/backend/VioBackend-definitions.h:28[m[K,
+                 from [01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/frontend/FrontendInputPacketBase.h:17[m[K,
+                 from [01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/dataprovider/DataProviderModule.h:29[m[K,
+                 from [01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/src/dataprovider/DataProviderModule.cpp:19[m[K:
+[01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/common/vio_types.h:70:13:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid VIO::getValidKeypointsFromStatusKeypointsCV(const StatusKeypointsCV&, VIO::KeypointsCV*)[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+   70 | static void [01;35m[KgetValidKeypointsFromStatusKeypointsCV[m[K(
+      |             [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/mesh/Mesher.h:25[m[K,
+                 from [01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/src/mesh/Mesher.cpp:15[m[K:
+[01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/common/vio_types.h:[m[K At global scope:
+[01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/common/vio_types.h:70:13:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid VIO::getValidKeypointsFromStatusKeypointsCV(const StatusKeypointsCV&, VIO::KeypointsCV*)[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+   70 | static void [01;35m[KgetValidKeypointsFromStatusKeypointsCV[m[K(
+      |             [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/common/VioNavState.h:27[m[K,
+                 from [01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/backend/VioBackend-definitions.h:28[m[K,
+                 from [01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/frontend/FrontendInputPacketBase.h:17[m[K,
+                 from [01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/frontend/VisionImuFrontend.h:22[m[K,
+                 from [01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/src/frontend/VisionImuFrontend.cpp:15[m[K:
+[01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/common/vio_types.h:70:13:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid VIO::getValidKeypointsFromStatusKeypointsCV(const StatusKeypointsCV&, VIO::KeypointsCV*)[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+   70 | static void [01;35m[KgetValidKeypointsFromStatusKeypointsCV[m[K(
+      |             [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/mesh/Mesher-definitions.h:25[m[K,
+                 from [01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/mesh/MesherModule.h:17[m[K,
+                 from [01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/src/mesh/MesherModule.cpp:15[m[K:
+[01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/common/vio_types.h:[m[K At global scope:
+[01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/common/vio_types.h:70:13:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid VIO::getValidKeypointsFromStatusKeypointsCV(const StatusKeypointsCV&, VIO::KeypointsCV*)[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+   70 | static void [01;35m[KgetValidKeypointsFromStatusKeypointsCV[m[K(
+      |             [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/mesh/Mesher-definitions.h:25[m[K,
+                 from [01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/mesh/MesherFactory.h:17[m[K,
+                 from [01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/src/mesh/MesherFactory.cpp:15[m[K:
+[01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/common/vio_types.h:[m[K At global scope:
+[01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/common/vio_types.h:70:13:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid VIO::getValidKeypointsFromStatusKeypointsCV(const StatusKeypointsCV&, VIO::KeypointsCV*)[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+   70 | static void [01;35m[KgetValidKeypointsFromStatusKeypointsCV[m[K(
+      |             [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/common/VioNavState.h:27[m[K,
+                 from [01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/backend/VioBackend-definitions.h:28[m[K,
+                 from [01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/frontend/FrontendInputPacketBase.h:17[m[K,
+                 from [01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/frontend/VisionImuFrontend.h:22[m[K,
+                 from [01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/frontend/VisionImuFrontendModule.h:17[m[K,
+                 from [01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/src/frontend/VisionImuFrontendModule.cpp:15[m[K:
+[01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/common/vio_types.h:70:13:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid VIO::getValidKeypointsFromStatusKeypointsCV(const StatusKeypointsCV&, VIO::KeypointsCV*)[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+   70 | static void [01;35m[KgetValidKeypointsFromStatusKeypointsCV[m[K(
+      |             [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/utils/UtilsOpenCV.h:34[m[K,
+                 from [01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/frontend/CameraParams.h:27[m[K,
+                 from [01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/frontend/Camera.h:25[m[K,
+                 from [01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/frontend/MonoVisionImuFrontend-definitions.h:19[m[K,
+                 from [01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/src/frontend/MonoVisionImuFrontend.cpp:17[m[K:
+[01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/common/vio_types.h:[m[K At global scope:
+[01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/common/vio_types.h:70:13:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid VIO::getValidKeypointsFromStatusKeypointsCV(const StatusKeypointsCV&, VIO::KeypointsCV*)[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+   70 | static void [01;35m[KgetValidKeypointsFromStatusKeypointsCV[m[K(
+      |             [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[ 20%] [32mBuilding CXX object CMakeFiles/kimera_vio.dir/src/visualizer/Visualizer3DModule.cpp.o[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/kimera_vio.dir/src/visualizer/Visualizer3DFactory.cpp.o[0m
+[ 21%] [32mBuilding CXX object CMakeFiles/kimera_vio.dir/src/visualizer/OpenCvVisualizer3D.cpp.o[0m
+In file included from [01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/common/VioNavState.h:27[m[K,
+                 from [01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/backend/VioBackend-definitions.h:28[m[K,
+                 from [01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/frontend/FrontendInputPacketBase.h:17[m[K,
+                 from [01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/dataprovider/DataProviderModule.h:29[m[K,
+                 from [01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/playground/EurocPlayground.h:26[m[K,
+                 from [01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/src/playground/EurocPlayground.cpp:1[m[K:
+[01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/common/vio_types.h:[m[K At global scope:
+[01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/common/vio_types.h:70:13:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid VIO::getValidKeypointsFromStatusKeypointsCV(const StatusKeypointsCV&, VIO::KeypointsCV*)[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+   70 | static void [01;35m[KgetValidKeypointsFromStatusKeypointsCV[m[K(
+      |             [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/utils/UtilsOpenCV.h:34[m[K,
+                 from [01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/frontend/CameraParams.h:27[m[K,
+                 from [01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/frontend/Camera.h:25[m[K,
+                 from [01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/dataprovider/DataProviderInterface.h:20[m[K,
+                 from [01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/src/dataprovider/DataProviderInterface.cpp:15[m[K:
+[01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/common/vio_types.h:70:13:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid VIO::getValidKeypointsFromStatusKeypointsCV(const StatusKeypointsCV&, VIO::KeypointsCV*)[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+   70 | static void [01;35m[KgetValidKeypointsFromStatusKeypointsCV[m[K(
+      |             [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[ 22%] [32mBuilding CXX object CMakeFiles/kimera_vio.dir/src/visualizer/OpenCvDisplay.cpp.o[0m
+[ 23%] [32mBuilding CXX object CMakeFiles/kimera_vio.dir/src/visualizer/OpenCvDisplayParams.cpp.o[0m
+In file included from [01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/utils/UtilsOpenCV.h:34[m[K,
+                 from [01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/frontend/CameraParams.h:27[m[K,
+                 from [01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/frontend/Camera.h:25[m[K,
+                 from [01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/frontend/Tracker.h:26[m[K,
+                 from [01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/src/frontend/Tracker.cpp:8[m[K:
+[01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/common/vio_types.h:[m[K At global scope:
+[01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/common/vio_types.h:70:13:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid VIO::getValidKeypointsFromStatusKeypointsCV(const StatusKeypointsCV&, VIO::KeypointsCV*)[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+   70 | static void [01;35m[KgetValidKeypointsFromStatusKeypointsCV[m[K(
+      |             [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/backend/RegularVioBackend-definitions.h:28[m[K,
+                 from [01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/backend/RegularVioBackendParams.h:29[m[K,
+                 from [01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/pipeline/Pipeline-definitions.h:17[m[K,
+                 from [01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/src/pipeline/Pipeline-definitions.cpp:15[m[K:
+[01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/common/vio_types.h:70:13:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid VIO::getValidKeypointsFromStatusKeypointsCV(const StatusKeypointsCV&, VIO::KeypointsCV*)[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+   70 | static void [01;35m[KgetValidKeypointsFromStatusKeypointsCV[m[K(
+      |             [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/common/VioNavState.h:27[m[K,
+                 from [01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/backend/VioBackend-definitions.h:28[m[K,
+                 from [01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/pipeline/Pipeline.h:27[m[K,
+                 from [01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/src/pipeline/Pipeline.cpp:16[m[K:
+[01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/common/vio_types.h:[m[K At global scope:
+[01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/common/vio_types.h:70:13:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid VIO::getValidKeypointsFromStatusKeypointsCV(const StatusKeypointsCV&, VIO::KeypointsCV*)[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+   70 | static void [01;35m[KgetValidKeypointsFromStatusKeypointsCV[m[K(
+      |             [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[ 23%] [32mBuilding CXX object CMakeFiles/kimera_vio.dir/src/visualizer/DisplayParams.cpp.o[0m
+[ 24%] [32mBuilding CXX object CMakeFiles/kimera_vio.dir/src/visualizer/Display-definitions.cpp.o[0m
+In file included from [01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/common/VioNavState.h:27[m[K,
+                 from [01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/backend/VioBackend-definitions.h:28[m[K,
+                 from [01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/frontend/FrontendInputPacketBase.h:17[m[K,
+                 from [01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/dataprovider/DataProviderModule.h:29[m[K,
+                 from [01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/dataprovider/MonoDataProviderModule.h:34[m[K,
+                 from [01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/pipeline/MonoImuPipeline.h:17[m[K,
+                 from [01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/src/pipeline/MonoImuPipeline.cpp:15[m[K:
+[01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/common/vio_types.h:[m[K At global scope:
+[01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/common/vio_types.h:70:13:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid VIO::getValidKeypointsFromStatusKeypointsCV(const StatusKeypointsCV&, VIO::KeypointsCV*)[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+   70 | static void [01;35m[KgetValidKeypointsFromStatusKeypointsCV[m[K(
+      |             [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[ 25%] [32mBuilding CXX object CMakeFiles/kimera_vio.dir/src/visualizer/Display.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/kimera_vio.dir/src/visualizer/DisplayModule.cpp.o[0m
+[ 26%] [32mBuilding CXX object CMakeFiles/kimera_vio.dir/src/visualizer/DisplayFactory.cpp.o[0m
+In file included from [01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/common/VioNavState.h:27[m[K,
+                 from [01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/backend/VioBackend-definitions.h:28[m[K,
+                 from [01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/frontend/FrontendInputPacketBase.h:17[m[K,
+                 from [01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/dataprovider/DataProviderModule.h:29[m[K,
+                 from [01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/dataprovider/MonoDataProviderModule.h:34[m[K,
+                 from [01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/dataprovider/StereoDataProviderModule.h:27[m[K,
+                 from [01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/pipeline/StereoImuPipeline.h:18[m[K,
+                 from [01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/src/pipeline/StereoImuPipeline.cpp:16[m[K:
+[01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/common/vio_types.h:[m[K At global scope:
+[01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/common/vio_types.h:70:13:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid VIO::getValidKeypointsFromStatusKeypointsCV(const StatusKeypointsCV&, VIO::KeypointsCV*)[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+   70 | static void [01;35m[KgetValidKeypointsFromStatusKeypointsCV[m[K(
+      |             [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/common/VioNavState.h:27[m[K,
+                 from [01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/backend/VioBackend-definitions.h:28[m[K,
+                 from [01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/visualizer/Visualizer3D-definitions.h:24[m[K,
+                 from [01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/visualizer/Visualizer3D.h:18[m[K,
+                 from [01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/src/visualizer/Visualizer3D.cpp:15[m[K:
+[01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/common/vio_types.h:70:13:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid VIO::getValidKeypointsFromStatusKeypointsCV(const StatusKeypointsCV&, VIO::KeypointsCV*)[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+   70 | static void [01;35m[KgetValidKeypointsFromStatusKeypointsCV[m[K(
+      |             [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/visualizer/OpenCvVisualizer3D.h:23[m[K,
+                 from [01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/src/visualizer/OpenCvVisualizer3D.cpp:15[m[K:
+[01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/src/visualizer/OpenCvVisualizer3D.cpp:[m[K In member function ‘[01m[Kvirtual VIO::VisualizerOutput::UniquePtr VIO::OpenCvVisualizer3D::spinOnce(const VIO::VisualizerInput&)[m[K’:
+[01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/src/visualizer/OpenCvVisualizer3D.cpp:179:61:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kunsigned int[m[K’ [[01;35m[K-Wsign-compare[m[K]
+  179 |           LOG_IF(ERROR, [01;35m[Kmesh_3d_viz_props_prev.colors_.rows > 0u[m[K)
+      |                         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/src/visualizer/OpenCvVisualizer3D.cpp:[m[K In member function ‘[01m[Kvoid VIO::OpenCvVisualizer3D::visualizeConvexHull(const VIO::TriangleCluster&, const cv::Mat&, const cv::Mat&, VIO::WidgetsMap*)[m[K’:
+[01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/src/visualizer/OpenCvVisualizer3D.cpp:1415:36:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Klong unsigned int[m[K’ and ‘[01m[Kconst int[m[K’ [[01;35m[K-Wsign-compare[m[K]
+ 1415 |     LOG_IF(FATAL, [01;35m[Ktriangle_idx + 3 >= polygons_mesh.rows[m[K)
+      |                   [01;35m[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/src/visualizer/OpenCvVisualizer3D.cpp:1471:34:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K-Wsign-compare[m[K]
+ 1471 |         for (size_t k = 0; [01;35m[Kk + 3 < polygon_hull.rows[m[K; k += 4) {
+      |                            [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/src/visualizer/OpenCvVisualizer3D.cpp:[m[K In member function ‘[01m[Kvoid VIO::OpenCvVisualizer3D::addPoseToTrajectory(const Affine3d&)[m[K’:
+[01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/src/visualizer/OpenCvVisualizer3D.cpp:1698:40:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kstd::deque<cv::Affine3<double> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kgoogle::int32[m[K’ {aka ‘[01m[Kint[m[K’} [[01;35m[K-Wsign-compare[m[K]
+ 1698 |     while ([01;35m[Ktrajectory_poses_3d_.size() > FLAGS_displayed_trajectory_length[m[K) {
+      |            [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/src/visualizer/OpenCvVisualizer3D.cpp:[m[K In member function ‘[01m[Kvoid VIO::OpenCvVisualizer3D::logMesh(const cv::Mat&, const cv::Mat&, const cv::Mat&, const Timestamp&, bool)[m[K’:
+[01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/src/visualizer/OpenCvVisualizer3D.cpp:1814:26:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kfirst_timestamp[m[K’ [[01;35m[K-Wunused-variable[m[K]
+ 1814 |   static const Timestamp [01;35m[Kfirst_timestamp[m[K = timestamp;
+      |                          [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/src/visualizer/OpenCvVisualizer3D.cpp:[m[K In member function ‘[01m[Kvoid VIO::OpenCvVisualizer3D::colorMeshByClusters(const std::vector<VIO::Plane>&, const cv::Mat&, const cv::Mat&, cv::Mat*) const[m[K’:
+[01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/src/visualizer/OpenCvVisualizer3D.cpp:1834:25:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Klog_landmarks[m[K’ [[01;35m[K-Wunused-variable[m[K]
+ 1834 |   static constexpr bool [01;35m[Klog_landmarks[m[K = false;
+      |                         [01;35m[K^~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/common/VioNavState.h:27[m[K,
+                 from [01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/backend/VioBackend-definitions.h:28[m[K,
+                 from [01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/visualizer/Visualizer3DFactory.h:19[m[K,
+                 from [01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/src/visualizer/Visualizer3DFactory.cpp:15[m[K:
+[01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/common/vio_types.h:70:13:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid VIO::getValidKeypointsFromStatusKeypointsCV(const StatusKeypointsCV&, VIO::KeypointsCV*)[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+   70 | static void [01;35m[KgetValidKeypointsFromStatusKeypointsCV[m[K(
+      |             [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/common/VioNavState.h:27[m[K,
+                 from [01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/backend/VioBackend-definitions.h:28[m[K,
+                 from [01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/visualizer/Visualizer3DModule.h:21[m[K,
+                 from [01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/src/visualizer/Visualizer3DModule.cpp:15[m[K:
+[01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/common/vio_types.h:70:13:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid VIO::getValidKeypointsFromStatusKeypointsCV(const StatusKeypointsCV&, VIO::KeypointsCV*)[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+   70 | static void [01;35m[KgetValidKeypointsFromStatusKeypointsCV[m[K(
+      |             [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/backend/RegularVioBackend-definitions.h:28[m[K,
+                 from [01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/backend/RegularVioBackendParams.h:29[m[K,
+                 from [01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/pipeline/Pipeline-definitions.h:17[m[K,
+                 from [01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/visualizer/OpenCvDisplay.h:19[m[K,
+                 from [01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/src/visualizer/OpenCvDisplay.cpp:15[m[K:
+[01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/common/vio_types.h:70:13:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid VIO::getValidKeypointsFromStatusKeypointsCV(const StatusKeypointsCV&, VIO::KeypointsCV*)[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+   70 | static void [01;35m[KgetValidKeypointsFromStatusKeypointsCV[m[K(
+      |             [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/backend/RegularVioBackend-definitions.h:28[m[K,
+                 from [01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/backend/RegularVioBackendParams.h:29[m[K,
+                 from [01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/pipeline/Pipeline-definitions.h:17[m[K,
+                 from [01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/visualizer/OpenCvDisplayParams.h:19[m[K,
+                 from [01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/src/visualizer/OpenCvDisplayParams.cpp:15[m[K:
+[01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/common/vio_types.h:70:13:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid VIO::getValidKeypointsFromStatusKeypointsCV(const StatusKeypointsCV&, VIO::KeypointsCV*)[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+   70 | static void [01;35m[KgetValidKeypointsFromStatusKeypointsCV[m[K(
+      |             [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/src/visualizer/OpenCvVisualizer3D.cpp:39[m[K:
+[01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/utils/FilesystemUtils.h:[m[K At global scope:
+[01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/utils/FilesystemUtils.h:22:13:[m[K [01;35m[Kwarning: [m[K‘[01m[Kbool VIO::common::createDirectory(const string&, const string&, bool)[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+   22 | static bool [01;35m[KcreateDirectory[m[K(const std::string& dir_path,
+      |             [01;35m[K^~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/common/VioNavState.h:27[m[K,
+                 from [01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/backend/VioBackend-definitions.h:28[m[K,
+                 from [01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/visualizer/OpenCvVisualizer3D.h:32[m[K,
+                 from [01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/src/visualizer/OpenCvVisualizer3D.cpp:15[m[K:
+[01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/common/vio_types.h:70:13:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid VIO::getValidKeypointsFromStatusKeypointsCV(const StatusKeypointsCV&, VIO::KeypointsCV*)[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+   70 | static void [01;35m[KgetValidKeypointsFromStatusKeypointsCV[m[K(
+      |             [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/utils/ThreadsafeQueue.h:28[m[K,
+                 from [01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/visualizer/Display-definitions.h:19[m[K,
+                 from [01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/visualizer/Display.h:18[m[K,
+                 from [01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/visualizer/DisplayFactory.h:20[m[K,
+                 from [01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/src/visualizer/DisplayFactory.cpp:15[m[K:
+[01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/common/vio_types.h:70:13:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid VIO::getValidKeypointsFromStatusKeypointsCV(const StatusKeypointsCV&, VIO::KeypointsCV*)[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+   70 | static void [01;35m[KgetValidKeypointsFromStatusKeypointsCV[m[K(
+      |             [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/utils/ThreadsafeQueue.h:28[m[K,
+                 from [01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/visualizer/Display-definitions.h:19[m[K,
+                 from [01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/src/visualizer/Display-definitions.cpp:15[m[K:
+[01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/common/vio_types.h:70:13:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid VIO::getValidKeypointsFromStatusKeypointsCV(const StatusKeypointsCV&, VIO::KeypointsCV*)[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+   70 | static void [01;35m[KgetValidKeypointsFromStatusKeypointsCV[m[K(
+      |             [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/utils/ThreadsafeQueue.h:28[m[K,
+                 from [01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/visualizer/Display-definitions.h:19[m[K,
+                 from [01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/src/visualizer/DisplayParams.cpp:21[m[K:
+[01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/common/vio_types.h:70:13:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid VIO::getValidKeypointsFromStatusKeypointsCV(const StatusKeypointsCV&, VIO::KeypointsCV*)[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+   70 | static void [01;35m[KgetValidKeypointsFromStatusKeypointsCV[m[K(
+      |             [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/utils/ThreadsafeQueue.h:28[m[K,
+                 from [01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/visualizer/Display-definitions.h:19[m[K,
+                 from [01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/visualizer/Display.h:18[m[K,
+                 from [01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/src/visualizer/Display.cpp:15[m[K:
+[01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/common/vio_types.h:70:13:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid VIO::getValidKeypointsFromStatusKeypointsCV(const StatusKeypointsCV&, VIO::KeypointsCV*)[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+   70 | static void [01;35m[KgetValidKeypointsFromStatusKeypointsCV[m[K(
+      |             [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/visualizer/DisplayModule.h:19[m[K,
+                 from [01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/src/visualizer/DisplayModule.cpp:15[m[K:
+[01m[K/home/banafshe/catkin_ws/src/Kimera-VIO/include/kimera-vio/common/vio_types.h:70:13:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid VIO::getValidKeypointsFromStatusKeypointsCV(const StatusKeypointsCV&, VIO::KeypointsCV*)[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+   70 | static void [01;35m[KgetValidKeypointsFromStatusKeypointsCV[m[K(
+      |             [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[ 27%] [32m[1mLinking CXX shared library libkimera_vio.so[0m
+[ 63%] Built target kimera_vio
+[35m[1mScanning dependencies of target stereoVIOEuroc[0m
+[ 63%] [32mBuilding CXX object CMakeFiles/stereoVIOEuroc.dir/examples/KimeraVIO.cpp.o[0m
+[35m[1mScanning dependencies of target testKimeraVIO[0m
+[ 65%] [32mBuilding CXX object CMakeFiles/testKimeraVIO.dir/tests/testCamera.cpp.o[0m
+[ 65%] [32mBuilding CXX object CMakeFiles/testKimeraVIO.dir/tests/testStereoImuPipeline.cpp.o[0m
+[ 65%] [32mBuilding CXX object CMakeFiles/testKimeraVIO.dir/tests/testEurocPlayground.cpp.o[0m
+[ 67%] [32mBuilding CXX object CMakeFiles/testKimeraVIO.dir/tests/testRgbdCamera.cpp.o[0m
+[ 68%] [32mBuilding CXX object CMakeFiles/testKimeraVIO.dir/tests/testStereoCamera.cpp.o[0m
+[ 69%] [32mBuilding CXX object CMakeFiles/testKimeraVIO.dir/tests/testDataProviderModule.cpp.o[0m
+[ 70%] [32mBuilding CXX object CMakeFiles/testKimeraVIO.dir/tests/testVioParams.cpp.o[0m
+[ 71%] [32mBuilding CXX object CMakeFiles/testKimeraVIO.dir/tests/testMesher.cpp.o[0m
+[ 71%] [32mBuilding CXX object CMakeFiles/testKimeraVIO.dir/tests/testStereoVisionImuFrontend.cpp.o[0m
+[ 72%] [32mBuilding CXX object CMakeFiles/testKimeraVIO.dir/tests/testMeshOptimization.cpp.o[0m
+[ 72%] [32mBuilding CXX object CMakeFiles/testKimeraVIO.dir/tests/testVisualizer3D.cpp.o[0m
+[ 73%] [32mBuilding CXX object CMakeFiles/testKimeraVIO.dir/tests/testOnlineAlignment.cpp.o[0m
+[ 74%] [32mBuilding CXX object CMakeFiles/testKimeraVIO.dir/tests/testOpticalFlowPredictor.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable stereoVIOEuroc[0m
+[ 75%] Built target stereoVIOEuroc
+[ 76%] [32m[1mLinking CXX executable testKimeraVIO[0m
+[100%] Built target testKimeraVIO

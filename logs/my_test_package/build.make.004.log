@@ -1,0 +1,4 @@
+[35m[1mScanning dependencies of target my_imu_bias_subscriber[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/my_imu_bias_subscriber.dir/src/kimera_subscriber.cpp.o[0m
+[100%] [32m[1mLinking CXX executable /home/banafshe/catkin_ws/devel/lib/my_test_package/my_imu_bias_subscriber[0m
+[100%] Built target my_imu_bias_subscriber

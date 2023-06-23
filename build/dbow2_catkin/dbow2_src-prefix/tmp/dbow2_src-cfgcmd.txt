@@ -1,0 +1,1 @@
+cmd='cd;../dbow2_src;&&;cmake;-DCMAKE_BUILD_TYPE=Release;-DCMAKE_INSTALL_PREFIX:PATH=/home/banafshe/catkin_ws/devel;-DBUILD_Demo=Off;.'

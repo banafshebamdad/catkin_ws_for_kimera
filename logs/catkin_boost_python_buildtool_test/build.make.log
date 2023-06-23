@@ -1,0 +1,6 @@
+[35m[1mScanning dependencies of target catkin_boost_python_test[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/catkin_boost_python_test.dir/src/module.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library /home/banafshe/catkin_ws/devel/lib/libcatkin_boost_python_test.so[0m
+[34m[1mCopying library files to python directory[0m
+'/home/banafshe/catkin_ws/devel/lib/libcatkin_boost_python_test.so' -> '/home/banafshe/catkin_ws/devel/lib/python3/dist-packages/catkin_boost_python_test/libcatkin_boost_python_test.so'
+[100%] Built target catkin_boost_python_test

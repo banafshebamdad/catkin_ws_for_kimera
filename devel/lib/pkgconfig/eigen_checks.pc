@@ -1,0 +1,8 @@
+prefix=/home/banafshe/catkin_ws/devel
+
+Name: eigen_checks
+Description: Description of eigen_checks
+Version: 0.0.1
+Cflags: -I/home/banafshe/catkin_ws/src/eigen_checks/include
+Libs: -L${prefix}/lib -leigen_checks
+Requires: 

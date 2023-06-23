@@ -1,0 +1,5 @@
+[35m[1mScanning dependencies of target my_publisher_cpp[0m
+[ 50%] Built target my_imu_bias_subscriber
+[ 75%] [32mBuilding CXX object CMakeFiles/my_publisher_cpp.dir/src/my_first_publisher.cpp.o[0m
+[100%] [32m[1mLinking CXX executable /home/banafshe/catkin_ws/devel/lib/my_test_package/my_publisher_cpp[0m
+[100%] Built target my_publisher_cpp

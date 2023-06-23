@@ -1,0 +1,48 @@
+In file included from [01m[K/home/banafshe/catkin_ws/src/mesh_rviz_plugins/src/textured_mesh_display.cc:23[m[K:
+[01m[K/home/banafshe/catkin_ws/src/mesh_rviz_plugins/include/mesh_rviz_plugins/textured_mesh_display.h:[m[K In constructor ‘[01m[Kmesh_rviz_plugins::TexturedMeshDisplay::TexturedMeshDisplay()[m[K’:
+[01m[K/home/banafshe/catkin_ws/src/mesh_rviz_plugins/include/mesh_rviz_plugins/textured_mesh_display.h:151:21:[m[K [01;35m[Kwarning: [m[K‘[01m[Kmesh_rviz_plugins::TexturedMeshDisplay::point_size_prop_[m[K’ will be initialized after [[01;35m[K-Wreorder[m[K]
+  151 |   rviz::IntProperty [01;35m[Kpoint_size_prop_[m[K;
+      |                     [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/banafshe/catkin_ws/src/mesh_rviz_plugins/include/mesh_rviz_plugins/textured_mesh_display.h:146:22:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Krviz::EnumProperty mesh_rviz_plugins::TexturedMeshDisplay::shader_program_prop_[m[K’ [[01;35m[K-Wreorder[m[K]
+  146 |   rviz::EnumProperty [01;35m[Kshader_program_prop_[m[K;
+      |                      [01;35m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/banafshe/catkin_ws/src/mesh_rviz_plugins/src/textured_mesh_display.cc:43:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+   43 | [01;35m[KTexturedMeshDisplay[m[K::TexturedMeshDisplay()
+      | [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/banafshe/catkin_ws/src/mesh_rviz_plugins/src/textured_mesh_display.cc:[m[K In member function ‘[01m[Kvoid mesh_rviz_plugins::TexturedMeshDisplay::processTextureMessage(const ConstPtr&)[m[K’:
+[01m[K/home/banafshe/catkin_ws/src/mesh_rviz_plugins/src/textured_mesh_display.cc:408:28:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kstd::queue<boost::shared_ptr<const sensor_msgs::Image_<std::allocator<void> > > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K-Wsign-compare[m[K]
+  408 |   while ([01;35m[Ktex_queue_.size() > queue_size_[m[K) {
+      |          [01;35m[K~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[01m[K/home/banafshe/catkin_ws/src/mesh_rviz_plugins/src/textured_mesh_display.cc:[m[K In member function ‘[01m[Kvoid mesh_rviz_plugins::TexturedMeshDisplay::processPolygonMeshMessage(const ConstPtr&)[m[K’:
+[01m[K/home/banafshe/catkin_ws/src/mesh_rviz_plugins/src/textured_mesh_display.cc:429:29:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kstd::queue<boost::shared_ptr<const pcl_msgs::PolygonMesh_<std::allocator<void> > > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K-Wsign-compare[m[K]
+  429 |   while ([01;35m[Kmesh_queue_.size() > queue_size_[m[K) {
+      |          [01;35m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/banafshe/catkin_ws/src/mesh_rviz_plugins/src/textured_mesh_visual.cc:22[m[K:
+[01m[K/home/banafshe/catkin_ws/src/mesh_rviz_plugins/include/mesh_rviz_plugins/textured_mesh_visual.h:[m[K In constructor ‘[01m[Kmesh_rviz_plugins::TexturedMeshVisual::TexturedMeshVisual(Ogre::SceneManager*, Ogre::SceneNode*, Ogre::PolygonMode, mesh_rviz_plugins::TexturedMeshVisual::ShaderProgram)[m[K’:
+[01m[K/home/banafshe/catkin_ws/src/mesh_rviz_plugins/include/mesh_rviz_plugins/textured_mesh_visual.h:446:17:[m[K [01;35m[Kwarning: [m[K‘[01m[Kmesh_rviz_plugins::TexturedMeshVisual::shader_program_[m[K’ will be initialized after [[01;35m[K-Wreorder[m[K]
+  446 |   ShaderProgram [01;35m[Kshader_program_[m[K;  // Controls which fragment shader to use.
+      |                 [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/banafshe/catkin_ws/src/mesh_rviz_plugins/include/mesh_rviz_plugins/textured_mesh_visual.h:442:9:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kfloat mesh_rviz_plugins::TexturedMeshVisual::scene_color_scale_[m[K’ [[01;35m[K-Wreorder[m[K]
+  442 |   float [01;35m[Kscene_color_scale_[m[K;  // Parameter for color scale.
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/banafshe/catkin_ws/src/mesh_rviz_plugins/src/textured_mesh_visual.cc:42:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+   42 | [01;35m[KTexturedMeshVisual[m[K::TexturedMeshVisual(Ogre::SceneManager* scene_manager,
+      | [01;35m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/banafshe/catkin_ws/src/mesh_rviz_plugins/src/textured_mesh_visual.cc:[m[K In member function ‘[01m[Kvoid mesh_rviz_plugins::TexturedMeshVisual::createMesh(const std::vector<sensor_msgs::PointField_<std::allocator<void> >, std::allocator<sensor_msgs::PointField_<std::allocator<void> > > >&)[m[K’:
+[01m[K/home/banafshe/catkin_ws/src/mesh_rviz_plugins/src/textured_mesh_visual.cc:308:20:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<sensor_msgs::PointField_<std::allocator<void> >, std::allocator<sensor_msgs::PointField_<std::allocator<void> > > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  308 |   while ([01;35m[Kfield_idx < fields.size()[m[K) {
+      |          [01;35m[K~~~~~~~~~~^~~~~~~~~~~~~~~[m[K
+[01m[K/home/banafshe/catkin_ws/src/mesh_rviz_plugins/src/textured_mesh_visual.cc:[m[K In member function ‘[01m[Kvoid mesh_rviz_plugins::TexturedMeshVisual::updateIndexBuffer(const MeshPtr&, const std::vector<pcl_msgs::Vertices_<std::allocator<void> >, std::allocator<pcl_msgs::Vertices_<std::allocator<void> > > >&)[m[K’:
+[01m[K/home/banafshe/catkin_ws/src/mesh_rviz_plugins/src/textured_mesh_visual.cc:388:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<pcl_msgs::Vertices_<std::allocator<void> >, std::allocator<pcl_msgs::Vertices_<std::allocator<void> > > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  388 |   for (int ii = 0; [01;35m[Kii < indices.size()[m[K; ++ii) {
+      |                    [01;35m[K~~~^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/banafshe/catkin_ws/src/mesh_rviz_plugins/src/surface_normals_visual.cc:[m[K In member function ‘[01m[Kvoid mesh_rviz_plugins::SurfaceNormalsVisual::setFromMessage(const PolygonMesh&)[m[K’:
+[01m[K/home/banafshe/catkin_ws/src/mesh_rviz_plugins/src/surface_normals_visual.cc:67:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<sensor_msgs::PointField_<std::allocator<void> >, std::allocator<sensor_msgs::PointField_<std::allocator<void> > > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+   67 |   for (int ii = 0; [01;35m[Kii < msg.cloud.fields.size()[m[K; ++ii) {
+      |                    [01;35m[K~~~^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/banafshe/catkin_ws/src/mesh_rviz_plugins/src/surface_normals_visual.cc:81:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kconst _height_type[m[K’ {aka ‘[01m[Kconst unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+   81 |   for (int ii = 0; [01;35m[Kii < msg.cloud.height[m[K; ++ii) {
+      |                    [01;35m[K~~~^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/banafshe/catkin_ws/src/mesh_rviz_plugins/src/surface_normals_visual.cc:82:25:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kconst _width_type[m[K’ {aka ‘[01m[Kconst unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+   82 |     for (int jj = 0; [01;35m[Kjj < msg.cloud.width[m[K; ++jj) {
+      |                      [01;35m[K~~~^~~~~~~~~~~~~~~~~[m[K

@@ -1,0 +1,18 @@
+/usr/bin/ld: /home/banafshe/catkin_ws/devel/lib/libkimera_semantics_ros.so: undefined reference to `cv::String::deallocate()'
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/semantic_simulator_eval.dir/build.make:479: /home/banafshe/catkin_ws/devel/lib/kimera_semantics_ros/semantic_simulator_eval] Error 1
+make[1]: *** [CMakeFiles/Makefile2:603: CMakeFiles/semantic_simulator_eval.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+/usr/bin/ld: /home/banafshe/catkin_ws/devel/lib/libkimera_semantics_ros.so: undefined reference to `cv::String::deallocate()'
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/kimera_semantics_node.dir/build.make:479: /home/banafshe/catkin_ws/devel/lib/kimera_semantics_ros/kimera_semantics_node] Error 1
+make[1]: *** [CMakeFiles/Makefile2:3080: CMakeFiles/kimera_semantics_node.dir/all] Error 2
+/usr/bin/ld: CMakeFiles/kimera_semantics_rosbag.dir/src/kimera_semantics_rosbag.cpp.o: in function `cvflann::anyimpl::big_any_policy<cv::String>::static_delete(void**)':
+kimera_semantics_rosbag.cpp:(.text._ZN7cvflann7anyimpl14big_any_policyIN2cv6StringEE13static_deleteEPPv[_ZN7cvflann7anyimpl14big_any_policyIN2cv6StringEE13static_deleteEPPv]+0x19): undefined reference to `cv::String::deallocate()'
+/usr/bin/ld: CMakeFiles/kimera_semantics_rosbag.dir/src/kimera_semantics_rosbag.cpp.o: in function `cvflann::anyimpl::big_any_policy<cv::String>::move(void* const*, void**)':
+kimera_semantics_rosbag.cpp:(.text._ZN7cvflann7anyimpl14big_any_policyIN2cv6StringEE4moveEPKPvPS5_[_ZN7cvflann7anyimpl14big_any_policyIN2cv6StringEE4moveEPKPvPS5_]+0x14): undefined reference to `cv::String::deallocate()'
+/usr/bin/ld: kimera_semantics_rosbag.cpp:(.text._ZN7cvflann7anyimpl14big_any_policyIN2cv6StringEE4moveEPKPvPS5_[_ZN7cvflann7anyimpl14big_any_policyIN2cv6StringEE4moveEPKPvPS5_]+0x28): undefined reference to `cv::String::deallocate()'
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/kimera_semantics_rosbag.dir/build.make:479: /home/banafshe/catkin_ws/devel/lib/kimera_semantics_ros/kimera_semantics_rosbag] Error 1
+make[1]: *** [CMakeFiles/Makefile2:895: CMakeFiles/kimera_semantics_rosbag.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

@@ -1,0 +1,176 @@
+[  0%] Built target pcl_msgs_generate_messages_eus
+[  0%] Built target nav_msgs_generate_messages_lisp
+[  0%] Built target map_msgs_generate_messages_nodejs
+[  0%] Built target nav_msgs_generate_messages_eus
+[  0%] Built target map_msgs_generate_messages_lisp
+[  0%] Built target map_msgs_generate_messages_cpp
+[  0%] Built target rviz_generate_messages_lisp
+[  0%] Built target rviz_generate_messages_py
+[  0%] Built target voxblox_msgs_generate_messages_py
+[  0%] Built target voxblox_msgs_generate_messages_nodejs
+[  0%] Built target rviz_generate_messages_nodejs
+[  0%] Built target voxblox_msgs_generate_messages_eus
+[  0%] Built target voxblox_msgs_generate_messages_cpp
+[  0%] Built target topic_tools_generate_messages_nodejs
+[  0%] Built target topic_tools_generate_messages_eus
+[  0%] Built target std_srvs_generate_messages_lisp
+[  0%] Built target bond_generate_messages_py
+[  0%] Built target topic_tools_generate_messages_lisp
+[  0%] Built target std_srvs_generate_messages_eus
+[  0%] Built target bond_generate_messages_nodejs
+[  0%] Built target bond_generate_messages_lisp
+[  0%] Built target bond_generate_messages_eus
+[  0%] Built target std_srvs_generate_messages_nodejs
+[  0%] Built target nodelet_generate_messages_py
+[  0%] Built target nodelet_generate_messages_nodejs
+[  0%] Built target nodelet_generate_messages_cpp
+[  0%] Built target dynamic_reconfigure_generate_messages_cpp
+[  0%] Built target nodelet_generate_messages_eus
+[  0%] Built target dynamic_reconfigure_gencfg
+[  0%] Built target pcl_ros_gencfg
+[  0%] Built target pcl_msgs_generate_messages_nodejs
+[  0%] Built target pcl_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target nodelet_generate_messages_lisp
+[  0%] Built target pcl_msgs_generate_messages_lisp
+[  0%] Built target geometry_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target tf2_msgs_generate_messages_cpp
+[  0%] Built target dynamic_reconfigure_generate_messages_lisp
+[  0%] Built target roscpp_generate_messages_nodejs
+[  0%] Built target voxblox_msgs_generate_messages_lisp
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[  0%] Built target tf_generate_messages_cpp
+[  0%] Built target map_msgs_generate_messages_py
+[  0%] Built target map_msgs_generate_messages_eus
+[  0%] Built target roscpp_generate_messages_lisp
+[  0%] Built target topic_tools_generate_messages_py
+[  0%] Built target actionlib_generate_messages_lisp
+[  0%] Built target roscpp_generate_messages_cpp
+[  0%] Built target rviz_generate_messages_cpp
+[  0%] Built target geometry_msgs_generate_messages_py
+[  0%] Built target sensor_msgs_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target std_srvs_generate_messages_cpp
+[  0%] Built target tf_generate_messages_eus
+[  0%] Built target rosgraph_msgs_generate_messages_py
+[  0%] Built target dynamic_reconfigure_generate_messages_py
+[  0%] Built target rosgraph_msgs_generate_messages_lisp
+[  0%] Built target actionlib_msgs_generate_messages_eus
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+[  0%] Built target rosgraph_msgs_generate_messages_eus
+[  0%] Built target dynamic_reconfigure_generate_messages_eus
+[  0%] Built target visualization_msgs_generate_messages_lisp
+[  0%] Built target std_srvs_generate_messages_py
+[  0%] Built target bond_generate_messages_cpp
+[  0%] Built target tf2_msgs_generate_messages_py
+[  0%] Built target nav_msgs_generate_messages_cpp
+[  0%] Built target dynamic_reconfigure_generate_messages_nodejs
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[  0%] Built target visualization_msgs_generate_messages_eus
+[  0%] Built target sensor_msgs_generate_messages_py
+[  0%] Built target roscpp_generate_messages_eus
+[  0%] Built target nav_msgs_generate_messages_nodejs
+[  0%] Built target tf2_msgs_generate_messages_eus
+[  0%] Built target pcl_msgs_generate_messages_cpp
+[  0%] Built target sensor_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target roscpp_generate_messages_py
+[  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[  0%] Built target rosgraph_msgs_generate_messages_cpp
+[  0%] Built target actionlib_generate_messages_cpp
+[  0%] Built target actionlib_msgs_generate_messages_py
+[  0%] Built target actionlib_generate_messages_eus
+[  0%] Built target nodelet_topic_tools_gencfg
+[  0%] Built target sensor_msgs_generate_messages_eus
+[  0%] Built target sensor_msgs_generate_messages_lisp
+[  0%] Built target actionlib_msgs_generate_messages_cpp
+[  0%] Built target visualization_msgs_generate_messages_cpp
+[  0%] Built target actionlib_generate_messages_nodejs
+[  0%] Built target tf_generate_messages_py
+[  0%] Built target actionlib_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target actionlib_msgs_generate_messages_lisp
+[  0%] Built target actionlib_msgs_generate_messages_nodejs
+[  0%] Built target tf2_msgs_generate_messages_nodejs
+[  0%] Built target tf2_msgs_generate_messages_lisp
+[  0%] Built target visualization_msgs_generate_messages_py
+[  0%] Built target topic_tools_generate_messages_cpp
+[  0%] Built target nav_msgs_generate_messages_py
+[  0%] Built target visualization_msgs_generate_messages_nodejs
+[  0%] Built target rviz_generate_messages_eus
+[  0%] Built target tf_generate_messages_nodejs
+[  0%] Built target tf_generate_messages_lisp
+[35m[1mScanning dependencies of target voxblox_ros[0m
+[  5%] [32mBuilding CXX object CMakeFiles/voxblox_ros.dir/src/esdf_server.cc.o[0m
+[ 10%] [32mBuilding CXX object CMakeFiles/voxblox_ros.dir/src/simulation_server.cc.o[0m
+[ 15%] [32mBuilding CXX object CMakeFiles/voxblox_ros.dir/src/tsdf_server.cc.o[0m
+[ 21%] [32mBuilding CXX object CMakeFiles/voxblox_ros.dir/src/intensity_server.cc.o[0m
+In file included from [01m[K/home/banafshe/catkin_ws/devel/include/opencv2/core/core_c.h:48[m[K,
+                 from [01m[K/home/banafshe/catkin_ws/devel/include/opencv2/core/utility.hpp:1255[m[K,
+                 from [01m[K/home/banafshe/catkin_ws/devel/include/opencv2/core.hpp:3269[m[K,
+                 from [01m[K/home/banafshe/catkin_ws/devel/include/opencv2/core/core.hpp:48[m[K,
+                 from [01m[K/opt/ros/noetic/include/cv_bridge/cv_bridge.h:43[m[K,
+                 from [01m[K/home/banafshe/catkin_ws/src/voxblox/voxblox_ros/include/voxblox_ros/intensity_server.h:6[m[K,
+                 from [01m[K/home/banafshe/catkin_ws/src/voxblox/voxblox_ros/src/intensity_server.cc:1[m[K:
+[01m[K/home/banafshe/catkin_ws/devel/include/opencv2/core/types_c.h:[m[K In copy constructor ‘[01m[KCvMat::CvMat(const CvMat&)[m[K’:
+[01m[K/home/banafshe/catkin_ws/devel/include/opencv2/core/types_c.h:461:59:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid* memcpy(void*, const void*, size_t)[m[K’ writing to an object of non-trivially copyable type ‘[01m[Kstruct CvMat[m[K’; use copy-assignment or copy-initialization instead [[01;35m[K-Wclass-memaccess[m[K]
+  461 |     CvMat(const CvMat& m) { memcpy(this, &m, sizeof(CvMat)[01;35m[K)[m[K;}
+      |                                                           [01;35m[K^[m[K
+[01m[K/home/banafshe/catkin_ws/devel/include/opencv2/core/types_c.h:423:16:[m[K [01;36m[Knote: [m[K‘[01m[Kstruct CvMat[m[K’ declared here
+  423 | typedef struct [01;36m[KCvMat[m[K
+      |                [01;36m[K^~~~~[m[K
+[01m[K/home/banafshe/catkin_ws/devel/include/opencv2/core/types_c.h:[m[K In constructor ‘[01m[KCvMat::CvMat(const cv::Mat&)[m[K’:
+[01m[K/home/banafshe/catkin_ws/devel/include/opencv2/core/types_c.h:530:69:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Kconstexpr CvMat& CvMat::operator=(const CvMat&)[m[K’ is deprecated [[01;35m[K-Wdeprecated-copy[m[K]
+  530 |     *this = cvMat(m.rows, m.dims == 1 ? 1 : m.cols, m.type(), m.data[01;35m[K)[m[K;
+      |                                                                     [01;35m[K^[m[K
+[01m[K/home/banafshe/catkin_ws/devel/include/opencv2/core/types_c.h:461:5:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[KCvMat[m[K’ has user-provided ‘[01m[KCvMat::CvMat(const CvMat&)[m[K’
+  461 |     [01;36m[KCvMat[m[K(const CvMat& m) { memcpy(this, &m, sizeof(CvMat));}
+      |     [01;36m[K^~~~~[m[K
+[ 26%] [32m[1mLinking CXX shared library /home/banafshe/catkin_ws/devel/lib/libvoxblox_ros.so[0m
+[ 36%] Built target voxblox_ros
+[35m[1mScanning dependencies of target visualize_tsdf[0m
+[35m[1mScanning dependencies of target simulation_eval[0m
+[35m[1mScanning dependencies of target intensity_server[0m
+[35m[1mScanning dependencies of target tsdf_server[0m
+[35m[1mScanning dependencies of target voxblox_eval[0m
+[35m[1mScanning dependencies of target esdf_server[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/visualize_tsdf.dir/src/visualize_tsdf.cc.o[0m
+[ 47%] [32mBuilding CXX object CMakeFiles/tsdf_server.dir/src/tsdf_server_node.cc.o[0m
+[ 52%] [32mBuilding CXX object CMakeFiles/simulation_eval.dir/src/simulation_eval.cc.o[0m
+[ 57%] [32mBuilding CXX object CMakeFiles/voxblox_eval.dir/src/voxblox_eval.cc.o[0m
+[ 63%] [32mBuilding CXX object CMakeFiles/intensity_server.dir/src/intensity_server_node.cc.o[0m
+[ 68%] [32mBuilding CXX object CMakeFiles/esdf_server.dir/src/esdf_server_node.cc.o[0m
+In file included from [01m[K/home/banafshe/catkin_ws/devel/include/opencv2/core/core_c.h:48[m[K,
+                 from [01m[K/home/banafshe/catkin_ws/devel/include/opencv2/core/utility.hpp:1255[m[K,
+                 from [01m[K/home/banafshe/catkin_ws/devel/include/opencv2/core.hpp:3269[m[K,
+                 from [01m[K/home/banafshe/catkin_ws/devel/include/opencv2/core/core.hpp:48[m[K,
+                 from [01m[K/opt/ros/noetic/include/cv_bridge/cv_bridge.h:43[m[K,
+                 from [01m[K/home/banafshe/catkin_ws/src/voxblox/voxblox_ros/include/voxblox_ros/intensity_server.h:6[m[K,
+                 from [01m[K/home/banafshe/catkin_ws/src/voxblox/voxblox_ros/src/intensity_server_node.cc:1[m[K:
+[01m[K/home/banafshe/catkin_ws/devel/include/opencv2/core/types_c.h:[m[K In copy constructor ‘[01m[KCvMat::CvMat(const CvMat&)[m[K’:
+[01m[K/home/banafshe/catkin_ws/devel/include/opencv2/core/types_c.h:461:59:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid* memcpy(void*, const void*, size_t)[m[K’ writing to an object of non-trivially copyable type ‘[01m[Kstruct CvMat[m[K’; use copy-assignment or copy-initialization instead [[01;35m[K-Wclass-memaccess[m[K]
+  461 |     CvMat(const CvMat& m) { memcpy(this, &m, sizeof(CvMat)[01;35m[K)[m[K;}
+      |                                                           [01;35m[K^[m[K
+[01m[K/home/banafshe/catkin_ws/devel/include/opencv2/core/types_c.h:423:16:[m[K [01;36m[Knote: [m[K‘[01m[Kstruct CvMat[m[K’ declared here
+  423 | typedef struct [01;36m[KCvMat[m[K
+      |                [01;36m[K^~~~~[m[K
+[01m[K/home/banafshe/catkin_ws/devel/include/opencv2/core/types_c.h:[m[K In constructor ‘[01m[KCvMat::CvMat(const cv::Mat&)[m[K’:
+[01m[K/home/banafshe/catkin_ws/devel/include/opencv2/core/types_c.h:530:69:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[Kconstexpr CvMat& CvMat::operator=(const CvMat&)[m[K’ is deprecated [[01;35m[K-Wdeprecated-copy[m[K]
+  530 |     *this = cvMat(m.rows, m.dims == 1 ? 1 : m.cols, m.type(), m.data[01;35m[K)[m[K;
+      |                                                                     [01;35m[K^[m[K
+[01m[K/home/banafshe/catkin_ws/devel/include/opencv2/core/types_c.h:461:5:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[KCvMat[m[K’ has user-provided ‘[01m[KCvMat::CvMat(const CvMat&)[m[K’
+  461 |     [01;36m[KCvMat[m[K(const CvMat& m) { memcpy(this, &m, sizeof(CvMat));}
+      |     [01;36m[K^~~~~[m[K
+[ 73%] [32m[1mLinking CXX executable /home/banafshe/catkin_ws/devel/lib/voxblox_ros/simulation_eval[0m
+[ 73%] Built target simulation_eval
+[ 78%] [32m[1mLinking CXX executable /home/banafshe/catkin_ws/devel/lib/voxblox_ros/intensity_server[0m
+[ 84%] [32m[1mLinking CXX executable /home/banafshe/catkin_ws/devel/lib/voxblox_ros/esdf_server[0m
+[ 84%] Built target intensity_server
+[ 84%] Built target esdf_server
+[ 89%] [32m[1mLinking CXX executable /home/banafshe/catkin_ws/devel/lib/voxblox_ros/tsdf_server[0m
+[ 89%] Built target tsdf_server
+[ 94%] [32m[1mLinking CXX executable /home/banafshe/catkin_ws/devel/lib/voxblox_ros/visualize_tsdf[0m
+[ 94%] Built target visualize_tsdf
+[100%] [32m[1mLinking CXX executable /home/banafshe/catkin_ws/devel/lib/voxblox_ros/voxblox_eval[0m
+[100%] Built target voxblox_eval

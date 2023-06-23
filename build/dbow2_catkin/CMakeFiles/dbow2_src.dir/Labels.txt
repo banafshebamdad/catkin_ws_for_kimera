@@ -1,0 +1,13 @@
+# Target labels
+ dbow2_src
+# Source files and their labels
+/home/banafshe/catkin_ws/build/dbow2_catkin/CMakeFiles/dbow2_src
+/home/banafshe/catkin_ws/build/dbow2_catkin/CMakeFiles/dbow2_src.rule
+/home/banafshe/catkin_ws/build/dbow2_catkin/CMakeFiles/dbow2_src-complete.rule
+/home/banafshe/catkin_ws/build/dbow2_catkin/dbow2_src-prefix/src/dbow2_src-stamp/dbow2_src-install.rule
+/home/banafshe/catkin_ws/build/dbow2_catkin/dbow2_src-prefix/src/dbow2_src-stamp/dbow2_src-mkdir.rule
+/home/banafshe/catkin_ws/build/dbow2_catkin/dbow2_src-prefix/src/dbow2_src-stamp/dbow2_src-download.rule
+/home/banafshe/catkin_ws/build/dbow2_catkin/dbow2_src-prefix/src/dbow2_src-stamp/dbow2_src-update.rule
+/home/banafshe/catkin_ws/build/dbow2_catkin/dbow2_src-prefix/src/dbow2_src-stamp/dbow2_src-patch.rule
+/home/banafshe/catkin_ws/build/dbow2_catkin/dbow2_src-prefix/src/dbow2_src-stamp/dbow2_src-configure.rule
+/home/banafshe/catkin_ws/build/dbow2_catkin/dbow2_src-prefix/src/dbow2_src-stamp/dbow2_src-build.rule

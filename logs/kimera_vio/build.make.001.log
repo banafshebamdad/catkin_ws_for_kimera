@@ -1,0 +1,4 @@
+[  2%] Built target gtest
+[ 63%] Built target kimera_vio
+[ 64%] Built target stereoVIOEuroc
+[100%] Built target testKimeraVIO

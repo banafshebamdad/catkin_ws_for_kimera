@@ -1,0 +1,4 @@
+[33m[1mCMake Warning[0m at /home/banafshe/catkin_ws/src/image_undistort/CMakeLists.txt:73 (MESSAGE):
+  nlopt not found, building without point to bearing nodelet
+
+

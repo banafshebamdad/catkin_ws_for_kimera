@@ -1,0 +1,29 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/banafshe/catkin_ws/devel/include/**",
+        "/opt/ros/noetic/include/**",
+        "/home/banafshe/catkin_ws/src/image_undistort/include/**",
+        "/home/banafshe/catkin_ws/src/Kimera-RPGO/include/**",
+        "/home/banafshe/catkin_ws/src/kimera_rviz_markers/include/**",
+        "/home/banafshe/catkin_ws/src/Kimera-VIO/include/**",
+        "/home/banafshe/catkin_ws/src/Kimera-VIO-ROS/include/**",
+        "/home/banafshe/catkin_ws/src/mesh_rviz_plugins/include/**",
+        "/home/banafshe/catkin_ws/src/my_test_package/include/**",
+        "/home/banafshe/catkin_ws/src/pose_graph_tools/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

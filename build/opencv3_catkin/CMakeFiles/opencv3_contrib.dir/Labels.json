@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/banafshe/catkin_ws/build/opencv3_catkin/CMakeFiles/opencv3_contrib"
+		},
+		{
+			"file" : "/home/banafshe/catkin_ws/build/opencv3_catkin/CMakeFiles/opencv3_contrib.rule"
+		},
+		{
+			"file" : "/home/banafshe/catkin_ws/build/opencv3_catkin/CMakeFiles/opencv3_contrib-complete.rule"
+		},
+		{
+			"file" : "/home/banafshe/catkin_ws/build/opencv3_catkin/opencv3_contrib-prefix/src/opencv3_contrib-stamp/opencv3_contrib-install.rule"
+		},
+		{
+			"file" : "/home/banafshe/catkin_ws/build/opencv3_catkin/opencv3_contrib-prefix/src/opencv3_contrib-stamp/opencv3_contrib-mkdir.rule"
+		},
+		{
+			"file" : "/home/banafshe/catkin_ws/build/opencv3_catkin/opencv3_contrib-prefix/src/opencv3_contrib-stamp/opencv3_contrib-download.rule"
+		},
+		{
+			"file" : "/home/banafshe/catkin_ws/build/opencv3_catkin/opencv3_contrib-prefix/src/opencv3_contrib-stamp/opencv3_contrib-update.rule"
+		},
+		{
+			"file" : "/home/banafshe/catkin_ws/build/opencv3_catkin/opencv3_contrib-prefix/src/opencv3_contrib-stamp/opencv3_contrib-patch.rule"
+		},
+		{
+			"file" : "/home/banafshe/catkin_ws/build/opencv3_catkin/opencv3_contrib-prefix/src/opencv3_contrib-stamp/opencv3_contrib-configure.rule"
+		},
+		{
+			"file" : "/home/banafshe/catkin_ws/build/opencv3_catkin/opencv3_contrib-prefix/src/opencv3_contrib-stamp/opencv3_contrib-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"opencv3_contrib"
+		],
+		"name" : "opencv3_contrib"
+	}
+}

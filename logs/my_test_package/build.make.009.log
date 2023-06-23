@@ -1,0 +1,6 @@
+[35m[1mScanning dependencies of target my_subscriber_cpp[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/my_subscriber_cpp.dir/src/my_first_subscriber.cpp.o[0m
+[ 50%] Built target my_imu_bias_subscriber
+[ 83%] Built target my_publisher_cpp
+[100%] [32m[1mLinking CXX executable /home/banafshe/catkin_ws/devel/lib/my_test_package/my_subscriber_cpp[0m
+[100%] Built target my_subscriber_cpp
